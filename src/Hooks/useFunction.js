@@ -71,7 +71,7 @@ const useFunction = () => {
   );
 
   // Filter Classes Detailse Data
-  const filterDetailsData = classesData.filter((item) => item.id == id);
+  const filterDetailsData = classesData.filter((item) => item.id === id);
 
   // ==================
   // Achivment Data Load

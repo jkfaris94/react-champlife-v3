@@ -26,10 +26,10 @@ const Overview = () => {
   });
 
   function playVideo(id, idVideo) {
-    var id = $("#" + id);
-    id.find("img").hide();
-    id.find("iframe").show().attr("src", idVideo);
-    id.find(".btn-close").show();
+    var $videoContainer = $("#" + id);  // ← Fixed: different variable name
+    $videoContainer.find("img").hide();
+    $videoContainer.find("iframe").show().attr("src", idVideo);
+    $videoContainer.find(".btn-close").show();
   }
 
   return (
@@ -69,7 +69,7 @@ const Overview = () => {
                 alt="images"
               />
 
-              <iframe id="embed-vid-1" className="vid-first"></iframe>
+              <iframe id="embed-vid-1" className="vid-first" title="vid-1"></iframe>
               <p className="btn-close">
                 <i className="fa fa-times"></i>
               </p>
