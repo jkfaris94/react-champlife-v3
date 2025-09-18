@@ -42,8 +42,8 @@ const WhoWeAre = () => {
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-4">
             <div className="common-header-right-div-title">
-              <h4>Overview Intro</h4>
-              <h2>OUR STORY</h2>
+              <h4>Overview TODO:</h4>
+              <h2>OUR STORY TODO:</h2>
             </div>
 
             <div className="vid-wrap" id="vid-1">
@@ -63,24 +63,23 @@ const WhoWeAre = () => {
 
           <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-4">
             <div className="common-header-right-div-title">
-              <h4>About Us</h4>
+              <h4>About The Champion Lifestyle</h4>
               <h2>WHO WE ARE</h2>
             </div>
 
             <div className="common-header-right-div-text">
               <p>
-                At FitFactory, we believe that fitness is not just about
-                physical strength, but also about mental well-being and personal
-                growth. Our mission is to empower individuals of all fitness
-                levels to reach their goals and lead healthier, happier lives.
+                At Champion Lifestyle, we believe fitness is more than just workouts, it’s a lifestyle. 
+                True transformation comes from aligning how you eat, train, and recover with your 
+                long-term vision for yourself. It’s not about extremes or chasing trends, but about 
+                creating balance and building a foundation you can actually enjoy and sustain.
               </p>
 
               <p>
-                Beyond fitness, we're a community of like-minded individuals who
-                inspire and support each other on our fitness journeys. From
-                group classes to social events, we provide opportunities for our
-                members to connect, share experiences, and celebrate
-                achievements together.
+                Success isn’t about quick fixes, it’s about building habits that align with your goals and desires. 
+                Whether you’re looking to lose weight, build muscle, or improve overall health, the key is consistency 
+                and sustainability. Champlife is here to guide you in making the right choices, turning small steps into 
+                natural habits that lead to lasting results. Your journey starts now. Let’s make it happen.
               </p>
             </div>
 
