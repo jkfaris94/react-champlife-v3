@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import WhoWeAre from "../../Component/MultiComponents/WhoWeAre";
 import WhyChooseUs from "../../Component/MultiComponents/WhyChooseUs";
 import ProSelected from "../../Component/MultiComponents/ProSelected";
-import Achivment from "../../Component/MultiComponents/Achivment";
+import Achivment from "../../Component/MultiComponents/Achievement";
 import StrongTeam from "../../Component/MultiComponents/StrongTeam";
 import WhatClintsSay from "../../Component/MultiComponents/WhatClintsSay";
 import ChoosePlan from "../../Component/MultiComponents/ChoosePlan";

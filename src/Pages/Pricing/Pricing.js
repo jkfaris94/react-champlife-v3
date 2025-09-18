@@ -1,7 +1,7 @@
 import React from "react";
 import "./Pricing.css";
 import Bodybuilder from "../../Images/muscular-bodybuilder-guy-doing-exercises-with-dumb.png";
-import Achivment from "../../Component/MultiComponents/Achivment";
+import Achievement from "../../Component/MultiComponents/Achievement";
 import ChoosePlanDaynamic from "../../Component/MultiComponents/ChoosePlanDaynamic";
 
 const Pricing = () => {
@@ -51,7 +51,7 @@ const Pricing = () => {
       </div>
 
       <div className="pricing-container-div-image">
-        <Achivment />
+        <Achievement />
       </div>
     </>
   );

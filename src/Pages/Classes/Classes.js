@@ -2,7 +2,7 @@ import React from "react";
 import "./Classes.css";
 import Bodybuilder from "../../Images/portrait-of-attractive-naked-bodybuilder.png";
 import ClassesList from "../../Component/MultiComponents/ClassesList";
-import Achivment from "../../Component/MultiComponents/Achivment";
+import Achievement from "../../Component/MultiComponents/Achievement";
 import WorkOutShedule from "../../Component/MultiComponents/WorkOutShedule";
 
 const Classes = () => {
@@ -52,7 +52,7 @@ const Classes = () => {
       </div>
 
       <div className="classes-container-div-image">
-        <Achivment />
+        <Achievement />
       </div>
 
       <div className="classes-container-div-gray">

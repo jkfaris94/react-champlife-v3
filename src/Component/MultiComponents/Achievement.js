@@ -3,19 +3,19 @@ import "./MultiComponents.css";
 import CountUp from "react-countup";
 import useFunction from "../../Hooks/useFunction";
 
-const Achivment = () => {
-  const { achivmentData } = useFunction();
+const Achievement = () => {
+  const { achievementData } = useFunction();
 
   return (
     <>
       <div className="section">
         <div className="row row-edit">
-          {achivmentData.map((item) => (
+          {achievementData.map((item) => (
             <div
               className="col-lg-3 col-md-6 col-sm-6 col-xs-12 mt-4"
               key={item.id}
             >
-              <div className="achivment-card">
+              <div className="achievment-card">
                 <i className={item.icon_class}></i>
                 <h2>
                   <CountUp delay={3} duration={8} start={0} end={item.number} />
@@ -30,4 +30,4 @@ const Achivment = () => {
   );
 };
 
-export default Achivment;
+export default Achievement;
