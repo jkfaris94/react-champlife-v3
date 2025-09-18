@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import "../MultiComponents/MultiComponents.css";
-import logo from "../../Images/fitfactory_logo.png";
+import logo from "../../Images/champion-lifestyle-no-background.png";
 import { Link } from "react-router-dom";
 import useFunction from "../../Hooks/useFunction";
 
@@ -136,8 +136,7 @@ const Footer = () => {
       </div>
       <div className="footer-copy-write-div">
         <p>
-          Copyright <span>©</span> 2024 FitFactory Developed by{" "}
-          <span>Developer.OmarFaruk</span>
+          Copyright <span>©</span> 2025 Champion Lifestyle LLC {""}
         </p>
       </div>
     </>
