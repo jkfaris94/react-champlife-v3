@@ -17,7 +17,6 @@ import Review from "./Pages/Review/Review";
 import Pricing from "./Pages/Pricing/Pricing";
 import ContactUs from "./Pages/ContactUs/ContactUs";
 import UserProfile from "./Pages/UserProfile/UserProfile";
-import './Config/firebase';
 
 function App() {
   return (

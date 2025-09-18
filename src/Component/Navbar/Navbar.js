@@ -42,15 +42,14 @@ const Navbar = () => {
             </div>
 
             <input type="checkbox" id="click" />
-            <label for="click" className="menu-btn">
+            <label htmlFor="click" className="menu-btn">
               <i className="fas fa-bars"></i>
             </label>
             <ul>
               <li>
                 <NavLink
                   to="/"
-                  className="nav-links"
-                  activeClass="active"
+                  className={({ isActive }) => `nav-links ${isActive ? 'active' : ''}`}
                   onClick={handleHomePage}
                 >
                   Home
