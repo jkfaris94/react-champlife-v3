@@ -27,7 +27,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #f4af04;
+  color: #3b82f6;
   text-transform: uppercase;
   width: 100%;
 }
@@ -52,7 +52,7 @@
   font-size: 20px;
 }
 .about-us-header-right-div-title h2 {
-  color: #f4af04;
+  color: #3b82f6;
   text-transform: uppercase;
 }
 .about-us-header-right-div-text {

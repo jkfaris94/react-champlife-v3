@@ -42,7 +42,7 @@
 }
 
 .header-vartical-icon i:hover {
-  color: #f4af04;
+  color: #3b82f6;
 }
 
 .header-col-image {
@@ -63,7 +63,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #f4af04;
+  color: #3b82f6;
   text-transform: uppercase;
   width: 100%;
 }
@@ -83,7 +83,7 @@
   border-radius: 50px;
   text-transform: uppercase;
   color: white;
-  background-color: #f4af04;
+  background-color: #3b82f6;
   border: none;
 }
 

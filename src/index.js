@@ -3,8 +3,8 @@ import { createRoot } from 'react-dom/client';
 import './App';
 import App from './App';
 
-// Import Firebase config (using the existing one you found)
-import './Firebase/Firebase.config';  // Or whatever the path is
+// Import Firebase config 
+import './Firebase/Firebase.config';  
 
 const container = document.getElementById('root');
 const root = createRoot(container);

@@ -22,7 +22,7 @@
   font-size: 20px;
 }
 .common-header-right-div-title h2 {
-  color: #f4af04;
+  color: #3b82f6;
   text-transform: uppercase;
 }
 
@@ -49,7 +49,7 @@
   border-radius: 50px;
   text-transform: uppercase;
   color: white;
-  background-color: #f4af04;
+  background-color: #3b82f6;
   border: none;
 }
 
@@ -135,7 +135,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #f4af04;
+  color: #3b82f6;
   text-transform: uppercase;
   width: 100%;
 }
@@ -163,7 +163,7 @@
 }
 
 .common-header-vartical-div-title h2 {
-  color: #f4af04;
+  color: #3b82f6;
   text-transform: uppercase;
 }
 
@@ -201,7 +201,7 @@
 }
 
 .pro-selected-card h4 {
-  color: #f4af04;
+  color: #3b82f6;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -224,7 +224,7 @@
 
 .achivment-card i {
   margin: 30px auto;
-  color: #f4af04;
+  color: #3b82f6;
   font-size: 3.5rem;
 }
 
@@ -263,7 +263,7 @@
 
 .client-say-review-card-header i {
   font-size: 2.5rem;
-  color: #f4af04;
+  color: #3b82f6;
   margin: 20px auto;
 }
 
@@ -308,12 +308,12 @@
   color: white;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
   border-radius: 20px;
-  border: 1px dotted #f4af04;
+  border: 1px dotted #3b82f6;
   background-color: #222222;
 }
 
 .choose-plan-card h3 {
-  color: #f4af04;
+  color: #3b82f6;
   text-transform: uppercase;
 }
 
@@ -324,12 +324,12 @@
 
 .choose-plan-card h1 {
   font-size: 4rem;
-  color: #f4af04;
+  color: #3b82f6;
   margin: 2.5rem auto 0rem auto;
 }
 
 .choose-plan-card span {
-  color: #f4af04;
+  color: #3b82f6;
 }
 
 .choose-plan-card p {
@@ -419,7 +419,7 @@
 }
 
 .class-list-card h4 {
-  color: #f4af04;
+  color: #3b82f6;
   margin: 30px auto 10px auto;
   text-transform: uppercase;
 }
@@ -446,8 +446,8 @@
 }
 
 .workout-shedule-list-div ul li:nth-last-child(2) {
-  color: #f4af04;
-  border-bottom: 1px dashed #f4af04;
+  color: #3b82f6;
+  border-bottom: 1px dashed #3b82f6;
   padding-top: 0px;
   padding-bottom: 5px;
   width: 50%;
@@ -515,7 +515,7 @@
 }
 
 .review-stories-card i {
-  color: #f4af04;
+  color: #3b82f6;
   font-size: 2rem;
 }
 
@@ -545,7 +545,7 @@
 }
 
 .dynamic-button button:nth-last-child(2) {
-  background-color: #f4af04;
+  background-color: #3b82f6;
   border-radius: 50px 0px 0px 50px;
 }
 
@@ -568,7 +568,7 @@
 }
 
 .contact-form-icon-div i:hover {
-  color: #f4af04;
+  color: #3b82f6;
 }
 
 .contact-form-div {
@@ -593,7 +593,7 @@
   border: none;
   border-radius: 10px;
   color: white;
-  background-color: #f4af04;
+  background-color: #3b82f6;
   letter-spacing: 1px;
 }
 

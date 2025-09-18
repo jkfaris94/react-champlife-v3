@@ -43,8 +43,8 @@ const Home = () => {
                 <div className="header-col-image">
                   <img src={Bodybuilder} alt="Bodybuilder__Image" />
                   <div className="header-col-image-centered">
-                    <h1>Hard Rock Game</h1>
-                    <h1>Time to Chnage</h1>
+                    <h1>Eat | Sleep | Train</h1>
+                    <h1>Like a Champion</h1>
                     <button onClick={handleContactPage}>Know More</button>
                   </div>
                 </div>

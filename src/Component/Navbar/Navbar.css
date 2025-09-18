@@ -78,7 +78,7 @@ nav ul {
 }
 
 .nav-links:hover {
-  color: #f4af04;
+  color: #3b82f6;
   text-decoration: none;
 }
 
@@ -108,8 +108,8 @@ input[type="checkbox"] {
   min-width: 170px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  border-bottom: 2px solid #f4af04;
-  border-top: 2px solid #f4af04;
+  border-bottom: 2px solid #3b82f6;
+  border-top: 2px solid #3b82f6;
   left: 70%;
   transform: translateX(-50%);
 }
@@ -125,7 +125,7 @@ input[type="checkbox"] {
 
 .dropdown-content a:hover {
   background-color: #ddd;
-  color: #f4af04;
+  color: #3b82f6;
 }
 
 .dropdown:hover .dropdown-content {
