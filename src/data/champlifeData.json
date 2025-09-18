@@ -1,0 +1,390 @@
+{
+  "champlife": {
+    "classes": [
+      {
+        "id": 101,
+        "title": "Champ Power Yoga",
+        "description": "Transform your mind and body with our signature yoga flow that builds strength, flexibility, and mental clarity. Perfect for all levels - from beginners to advanced practitioners. Join our community of warriors who find their center through breath and movement.",
+        "img": "/images/classes/champ-yoga.jpg",
+        "schedule": [
+          { "id": 0, "day": "Monday", "time": "06:00 AM - 07:30 AM" },
+          { "id": 1, "day": "Tuesday", "time": "06:00 AM - 07:30 AM" },
+          { "id": 2, "day": "Wednesday", "time": "06:00 AM - 07:30 AM" },
+          { "id": 3, "day": "Thursday", "time": "06:00 AM - 07:30 AM" },
+          { "id": 4, "day": "Friday", "time": "06:00 AM - 07:30 AM" },
+          { "id": 5, "day": "Saturday", "time": "08:00 AM - 09:30 AM" },
+          { "id": 6, "day": "Sunday", "time": "Rest & Recover" }
+        ],
+        "video_path": "https://www.youtube.com/embed/your-yoga-video-id",
+        "overview1": "Our yoga sessions begin with breathwork and centering meditation, followed by dynamic flows that challenge your balance, strength, and flexibility. Each class ends with restorative poses and a guided meditation to integrate your practice.",
+        "overview2": "Champ Power Yoga builds a strong foundation for both physical and mental resilience. You'll leave each class feeling centered, energized, and ready to tackle your day with clarity and purpose."
+      },
+      {
+        "id": 201,
+        "title": "Champ Cycle Revolution",
+        "description": "Get your heart pumping and legs burning in our high-energy indoor cycling classes. Perfect for building endurance, burning fat, and boosting your cardio capacity. Our expert instructors will guide you through challenging rides set to motivating music.",
+        "img": "/images/classes/champ-cycle.jpg",
+        "schedule": [
+          { "id": 0, "day": "Monday", "time": "09:00 AM - 10:00 AM" },
+          { "id": 1, "day": "Tuesday", "time": "09:00 AM - 10:00 AM" },
+          { "id": 2, "day": "Wednesday", "time": "09:00 AM - 10:00 AM" },
+          { "id": 3, "day": "Thursday", "time": "09:00 AM - 10:00 AM" },
+          { "id": 4, "day": "Friday", "time": "09:00 AM - 10:00 AM" },
+          { "id": 5, "day": "Saturday", "time": "10:00 AM - 11:00 AM" },
+          { "id": 6, "day": "Sunday", "time": "Rest & Recover" }
+        ],
+        "video_path": "https://www.youtube.com/embed/your-cycle-video-id",
+        "overview1": "Each class features interval training, hill climbs, and sprint segments designed to maximize calorie burn and cardiovascular fitness. Our state-of-the-art bikes ensure a smooth, comfortable ride for all fitness levels.",
+        "overview2": "Champ Cycle Revolution is more than just a workout - it's a community experience. You'll ride with others who share your passion for pushing limits and celebrating achievements together."
+      },
+      {
+        "id": 301,
+        "title": "Champ Strength Forge",
+        "description": "Build raw power and functional strength with our progressive strength training program. From free weights to functional movements, our classes will transform your body and build confidence that carries over to every aspect of your life.",
+        "img": "/images/classes/champ-strength.jpg",
+        "schedule": [
+          { "id": 0, "day": "Monday", "time": "12:00 PM - 01:00 PM" },
+          { "id": 1, "day": "Tuesday", "time": "12:00 PM - 01:00 PM" },
+          { "id": 2, "day": "Wednesday", "time": "12:00 PM - 01:00 PM" },
+          { "id": 3, "day": "Thursday", "time": "12:00 PM - 01:00 PM" },
+          { "id": 4, "day": "Friday", "time": "12:00 PM - 01:00 PM" },
+          { "id": 5, "day": "Saturday", "time": "11:00 AM - 12:00 PM" },
+          { "id": 6, "day": "Sunday", "time": "Rest & Recover" }
+        ],
+        "video_path": "https://www.youtube.com/embed/your-strength-video-id",
+        "overview1": "Our strength sessions follow progressive overload principles, gradually increasing resistance to build muscle and strength safely. Each class includes compound movements that maximize efficiency and results.",
+        "overview2": "Champ Strength Forge isn't just about lifting heavy - it's about building a foundation of strength that supports all your other fitness goals and enhances your daily functional movement."
+      },
+      {
+        "id": 401,
+        "title": "Champ HIIT Assault",
+        "description": "Experience the ultimate fat-burning, metabolism-boosting workout with our High-Intensity Interval Training classes. Short, intense bursts of work followed by strategic recovery will push your limits and deliver results in record time.",
+        "img": "/images/classes/champ-hiit.jpg",
+        "schedule": [
+          { "id": 0, "day": "Monday", "time": "05:00 PM - 05:45 PM" },
+          { "id": 1, "day": "Tuesday", "time": "05:00 PM - 05:45 PM" },
+          { "id": 2, "day": "Wednesday", "time": "05:00 PM - 05:45 PM" },
+          { "id": 3, "day": "Thursday", "time": "05:00 PM - 05:45 PM" },
+          { "id": 4, "day": "Friday", "time": "05:00 PM - 05:45 PM" },
+          { "id": 5, "day": "Saturday", "time": "09:00 AM - 09:45 AM" },
+          { "id": 6, "day": "Sunday", "time": "Rest & Recover" }
+        ],
+        "video_path": "https://www.youtube.com/embed/your-hiit-video-id",
+        "overview1": "HIIT Assault classes combine bodyweight exercises, plyometrics, and functional movements in circuits that keep your heart rate elevated while building strength and endurance simultaneously.",
+        "overview2": "Perfect for busy schedules, our HIIT classes deliver maximum results in minimum time. You'll burn calories during the workout and continue burning fat for hours afterward thanks to the EPOC effect."
+      },
+      {
+        "id": 501,
+        "title": "Champ Rhythm Flow",
+        "description": "Dance your way to fitness with our high-energy dance cardio classes that blend the best of Zumba, hip-hop, and contemporary dance. Perfect for those who want to have fun while getting an incredible full-body workout.",
+        "img": "/images/classes/champ-rhythm.jpg",
+        "schedule": [
+          { "id": 0, "day": "Monday", "time": "06:30 PM - 07:30 PM" },
+          { "id": 1, "day": "Tuesday", "time": "06:30 PM - 07:30 PM" },
+          { "id": 2, "day": "Wednesday", "time": "06:30 PM - 07:30 PM" },
+          { "id": 3, "day": "Thursday", "time": "06:30 PM - 07:30 PM" },
+          { "id": 4, "day": "Friday", "time": "06:30 PM - 07:30 PM" },
+          { "id": 5, "day": "Saturday", "time": "Rest & Recover" },
+          { "id": 6, "day": "Sunday", "time": "Rest & Recover" }
+        ],
+        "video_path": "https://www.youtube.com/embed/your-dance-video-id",
+        "overview1": "Each class features choreographed routines set to today's hottest tracks, blending Latin, hip-hop, and pop dance styles. No dance experience necessary - just bring your energy and willingness to move!",
+        "overview2": "Champ Rhythm Flow is the perfect blend of fun and fitness. You'll improve coordination, burn serious calories, and build confidence while making friends and enjoying music you love."
+      },
+      {
+        "id": 601,
+        "title": "Champ Body Combat",
+        "description": "Channel your inner warrior with our martial arts-inspired cardio class that combines boxing, kickboxing, and bodyweight exercises. This high-energy workout will improve your coordination, agility, and confidence while torching calories.",
+        "img": "/images/classes/champ-combat.jpg",
+        "schedule": [
+          { "id": 0, "day": "Monday", "time": "07:00 PM - 08:00 PM" },
+          { "id": 1, "day": "Tuesday", "time": "07:00 PM - 08:00 PM" },
+          { "id": 2, "day": "Wednesday", "time": "07:00 PM - 08:00 PM" },
+          { "id": 3, "day": "Thursday", "time": "07:00 PM - 08:00 PM" },
+          { "id": 4, "day": "Friday", "time": "Rest & Recover" },
+          { "id": 5, "day": "Saturday", "time": "Rest & Recover" },
+          { "id": 6, "day": "Sunday", "time": "Rest & Recover" }
+        ],
+        "video_path": "https://www.youtube.com/embed/your-combat-video-id",
+        "overview1": "Our instructors will teach you proper technique for punches, kicks, and defensive movements while keeping the energy high with motivating music and group encouragement.",
+        "overview2": "Champ Body Combat builds total-body fitness while boosting confidence and stress relief. You'll leave each class feeling empowered, energized, and ready to take on any challenge."
+      }
+    ],
+    "achievment": [
+      {
+        "id": 0,
+        "title": "Training Sessions Delivered",
+        "number": "2500+",
+        "icon_class": "fa-solid fa-dumbbell"
+      },
+      {
+        "id": 1,
+        "title": "Champions Created",
+        "number": "1250+",
+        "icon_class": "fa-solid fa-trophy"
+      },
+      {
+        "id": "2",
+        "title": "Years of Excellence",
+        "number": "5+",
+        "icon_class": "fa-solid fa-star"
+      },
+      {
+        "id": 3,
+        "title": "Community Members",
+        "number": "800+",
+        "icon_class": "fa-solid fa-users"
+      }
+    ],
+    "review": [
+      {
+        "id": 0,
+        "name": "Alex Rivera",
+        "time": "12 Weeks / Power Yoga",
+        "image": "/images/reviews/alex-rivera.jpg",
+        "comments": "Champ Power Yoga has completely transformed my approach to fitness. The instructors are incredible and the community is so supportive. I've never felt stronger or more centered in my life."
+      },
+      {
+        "id": 1,
+        "name": "Maria Gonzalez",
+        "time": "8 Weeks / Cycle Revolution",
+        "image": "/images/reviews/maria-gonzalez.jpg",
+        "comments": "The cycling classes are next level! The instructors know exactly how to push you without breaking you. I've lost 15 pounds and gained so much endurance. Best decision I ever made!"
+      },
+      {
+        "id": 2,
+        "name": "Jordan Lee",
+        "time": "16 Weeks / Strength Forge",
+        "image": "/images/reviews/jordan-lee.jpg",
+        "comments": "As someone who was intimidated by weights, the Strength Forge classes changed everything for me. The progression is so smart and the coaches make it fun. I've never felt more confident."
+      },
+      {
+        "id": 3,
+        "name": "Taylor Brooks",
+        "time": "6 Weeks / HIIT Assault",
+        "image": "/images/reviews/taylor-brooks.jpg",
+        "comments": "HIIT Assault is brutal but in the best way possible. The results are unreal - I've gotten so much leaner and stronger in just 6 weeks. The coaches keep you motivated through every workout."
+      },
+      {
+        "id": 4,
+        "name": "Casey Morgan",
+        "time": "10 Weeks / Rhythm Flow",
+        "image": "/images/reviews/casey-morgan.jpg",
+        "comments": "I never thought I'd enjoy dance fitness but Rhythm Flow is so much fun! The instructors make everyone feel welcome and the music is always amazing. It's my favorite part of the week."
+      },
+      {
+        "id": 5,
+        "name": "Riley Patel",
+        "time": "14 Weeks / Body Combat",
+        "image": "/images/reviews/riley-patel.jpg",
+        "comments": "Body Combat has given me confidence I didn't know I had. The combination of cardio and martial arts moves is perfect. I feel like a warrior every time I leave class!"
+      }
+    ],
+    "awards": [
+      {
+        "id": 0,
+        "image": "/images/awards/best-fitness-studio-2024.png",
+        "title": "Best Fitness Studio 2024"
+      },
+      {
+        "id": 1,
+        "image": "/images/awards/community-choice-2023.png",
+        "title": "Community Choice 2023"
+      },
+      {
+        "id": 2,
+        "image": "/images/awards/innovation-award-2024.png",
+        "title": "Innovation Award 2024"
+      },
+      {
+        "id": 3,
+        "image": "/images/awards/top-trainers-2023.png",
+        "title": "Top Trainers 2023"
+      },
+      {
+        "id": 4,
+        "image": "/images/awards/customer-service-2024.png",
+        "title": "Customer Service Excellence 2024"
+      },
+      {
+        "id": 5,
+        "image": "/images/awards/fitness-innovation-2023.png",
+        "title": "Fitness Innovation 2023"
+      }
+    ],
+    "features": [
+      {
+        "id": 0,
+        "icon_class": "fa-solid fa-dumbbell",
+        "title": "STATE-OF-THE-ART EQUIPMENT",
+        "description": "Premium fitness equipment from leading brands, regularly maintained for optimal performance and safety."
+      },
+      {
+        "id": 1,
+        "icon_class": "fa-solid fa-users",
+        "title": "EXPERT COACHING",
+        "description": "Certified trainers with years of experience, dedicated to helping you achieve your fitness goals."
+      },
+      {
+        "id": 2,
+        "icon_class": "fa-solid fa-heart-pulse",
+        "title": "COMPREHENSIVE CARDIO",
+        "description": "Cutting-edge cardio machines with personal entertainment systems and heart rate monitoring."
+      },
+      {
+        "id": 3,
+        "icon_class": "fa-solid fa-clock",
+        "title": "FLEXIBLE SCHEDULING",
+        "description": "Classes throughout the day with options for early birds, lunch breaks, and evening warriors."
+      },
+      {
+        "id": 4,
+        "icon_class": "fa-solid fa-handshake",
+        "title": "COMMUNITY FOCUS",
+        "description": "A welcoming environment where everyone supports each other's fitness journey."
+      }
+    ],
+    "trainers": [
+      {
+        "id": 0,
+        "name": "Alex Rivera",
+        "specialty": "Power Yoga & Mobility",
+        "certifications": "RYT-500, NASM-CPT",
+        "experience": "8 years",
+        "image": "/images/trainers/alex-rivera.jpg",
+        "bio": "Alex brings the perfect blend of strength and grace to every yoga class. His background in competitive gymnastics gives him unique insight into functional movement patterns."
+      },
+      {
+        "id": 1,
+        "name": "Maria Gonzalez",
+        "specialty": "Cycle & Endurance Training",
+        "certifications": "Spinning® Master Instructor, ACE Group Fitness",
+        "experience": "6 years",
+        "image": "/images/trainers/maria-gonzalez.jpg",
+        "bio": "Maria's infectious energy and cycling expertise make her classes the highlight of the week. Former competitive cyclist who loves helping others discover their endurance potential."
+      },
+      {
+        "id": 2,
+        "name": "Jordan Lee",
+        "specialty": "Strength & Conditioning",
+        "certifications": "CSCS, CrossFit Level 2",
+        "experience": "10 years",
+        "image": "/images/trainers/jordan-lee.jpg",
+        "bio": "Jordan's no-nonsense approach to strength training gets results. Background in collegiate athletics and a passion for helping people build confidence through physical strength."
+      },
+      {
+        "id": 3,
+        "name": "Taylor Brooks",
+        "specialty": "HIIT & Functional Training",
+        "certifications": "NASM-PES, TRX Instructor",
+        "experience": "7 years",
+        "image": "/images/trainers/taylor-brooks.jpg",
+        "bio": "Taylor thrives on high-intensity challenges and loves creating workouts that push participants to discover their limits. Former Division I track athlete with a focus on injury prevention."
+      },
+      {
+        "id": 4,
+        "name": "Casey Morgan",
+        "specialty": "Dance Fitness & Rhythm",
+        "certifications": "Zumba® Instructor, AFAA Group Fitness",
+        "experience": "5 years",
+        "image": "/images/trainers/casey-morgan.jpg",
+        "bio": "Casey's dance background and positive energy make fitness fun! Professional dancer turned fitness instructor who believes movement should feel like celebration, not punishment."
+      }
+    ],
+    "pricing": [
+      {
+        "monthly": [
+          {
+            "id": 0,
+            "title": "CHAMP STARTER",
+            "price": "79",
+            "category": "month",
+            "features": [
+              "Unlimited Group Classes",
+              "Gym Access (Peak Hours)",
+              "Community Events",
+              "Progress Tracking App"
+            ],
+            "training": "Group Fitness Focus"
+          },
+          {
+            "id": 1,
+            "title": "CHAMP ELITE",
+            "price": "129",
+            "category": "month",
+            "features": [
+              "Unlimited Group Classes",
+              "24/7 Gym Access",
+              "2 Personal Training Sessions",
+              "Nutrition Guidance",
+              "Priority Class Booking"
+            ],
+            "training": "Balanced Approach"
+          },
+          {
+            "id": 2,
+            "title": "CHAMP LEGEND",
+            "price": "199",
+            "category": "month",
+            "features": [
+              "Unlimited Everything",
+              "8 Personal Training Sessions",
+              "Custom Nutrition Plan",
+              "Monthly Assessment",
+              "VIP Community Access",
+              "Recovery Services"
+            ],
+            "training": "Elite Performance"
+          }
+        ],
+        "yearly": [
+          {
+            "id": 0,
+            "title": "CHAMP STARTER",
+            "price": "799",
+            "category": "year",
+            "features": [
+              "Unlimited Group Classes",
+              "Gym Access (Peak Hours)",
+              "Community Events",
+              "Progress Tracking App"
+            ],
+            "training": "Group Fitness Focus",
+            "savings": "Save 15% vs Monthly"
+          },
+          {
+            "id": 1,
+            "title": "CHAMP ELITE",
+            "price": "1299",
+            "category": "year",
+            "features": [
+              "Unlimited Group Classes",
+              "24/7 Gym Access",
+              "24 Personal Training Sessions",
+              "Nutrition Guidance",
+              "Priority Class Booking"
+            ],
+            "training": "Balanced Approach",
+            "savings": "Save 16% vs Monthly"
+          },
+          {
+            "id": 2,
+            "title": "CHAMP LEGEND",
+            "price": "1999",
+            "category": "year",
+            "features": [
+              "Unlimited Everything",
+              "52 Personal Training Sessions",
+              "Custom Nutrition Plan",
+              "Monthly Assessment",
+              "VIP Community Access",
+              "Recovery Services"
+            ],
+            "training": "Elite Performance",
+            "savings": "Save 16% vs Monthly"
+          }
+        ]
+      }
+    ]
+  }
+}
