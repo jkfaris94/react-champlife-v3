@@ -9,6 +9,7 @@ const useFunction = () => {
   const [reviewData, setReviewData] = useState([]);
   const [awardData, setAwardData] = useState([]);
   const [classesData, setClassesData] = useState([]);
+  const [trainingEnvironmentData, setTrainingEnvironmentData] = useState([]);
   const [achievementData, setAchievementData] = useState([]);
   const [featureData, setFeatureData] = useState([]);
   const [personalTrainingData, setPersonalTrainingData] = useState([]);
@@ -33,6 +34,7 @@ const useFunction = () => {
         setReviewData(Array.isArray(data?.review) ? data.review : []);
         setAwardData(Array.isArray(data?.awards) ? data.awards : []);
         setClassesData(Array.isArray(data?.classes) ? data.classes : []);
+        setTrainingEnvironmentData(Array.isArray(data?.trainingEnvironment) ? data.trainingEnvironment : []);
         setAchievementData(Array.isArray(data?.achievement) ? data.achievement : []);
         setFeatureData(Array.isArray(data?.features) ? data.features : []);
         setPersonalTrainingData(Array.isArray(data?.personalTraining) ? data.personalTraining : []);
@@ -74,6 +76,7 @@ const useFunction = () => {
     reviewData,
     awardData,
     classesData,
+    trainingEnvironmentData,
     achievementData,
     featureData,
     personalTrainingData,

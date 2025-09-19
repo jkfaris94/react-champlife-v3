@@ -6,6 +6,7 @@ import WhoWeAre from "../../Component/MultiComponents/WhoWeAre";
 // import WhyChooseUs from "../../Component/MultiComponents/WhyChooseUs";
 import WhyPersonalTraining from "../../Component/MultiComponents/WhyPersonalTraining";
 import ProSelected from "../../Component/MultiComponents/ProSelected";
+import TrainingEnvironment from "../../Component/MultiComponents/TrainingEnviorment";
 import Achivment from "../../Component/MultiComponents/Achievement";
 import StrongTeam from "../../Component/MultiComponents/StrongTeam";
 import WhatClintsSay from "../../Component/MultiComponents/WhatClintsSay";
@@ -69,6 +70,10 @@ const Home = () => {
 
       <div className="home-container-div-gray">
         <ProSelected />
+      </div>
+
+      <div className="home-container-div-gray">
+        <TrainingEnvironment />
       </div>
 
       <div className="home-container-div-image2">

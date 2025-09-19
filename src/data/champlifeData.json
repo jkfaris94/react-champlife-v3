@@ -110,6 +110,48 @@
         "overview2": "Champ Body Combat builds total-body fitness while boosting confidence and stress relief. You'll leave each class feeling empowered, energized, and ready to take on any challenge."
       }
     ],
+    "trainingEnvironment": [
+        {
+            "id": 0,
+            "slug": "in-gym",
+            "icon_class": "fa-solid fa-dumbbell",
+            "title": "IN-GYM TRAINING",
+            "tagline": "Access to full equipment",
+            "description": "Train with me at a gym setting where you’ll have access to a variety of equipment and a motivating atmosphere. Training locations in Pasadena and Glendale.",
+            "img": "/champlife-images/barbell.png",
+            "img_alt": "Trainer coaching a client on a barbell lift in a gym"
+        },
+        {
+            "id": 1,
+            "slug": "in-home",
+            "icon_class": "fa-solid fa-house",
+            "title": "IN-HOME TRAINING",
+            "tagline": "Convenient and private",
+            "description": "Experience personalized coaching in the comfort of your own home. I bring the expertise and guidance, so you can focus on achieving your goals. Service area around Glendale, Pasadena, La Cañada, NELA area.",
+            "img": "/champlife-images/assisted-stretch.png",
+            "img_alt": "Trainer leading a workout with a client in a living room"
+        },
+        {
+            "id": 2,
+            "slug": "virtual",
+            "icon_class": "fa-solid fa-video",
+            "title": "VIRTUAL TRAINING",
+            "tagline": "Train from anywhere",
+            "description": "Train from anywhere with real-time coaching via video. Get expert guidance, accountability, and customized workouts without needing to leave your home.",
+            "img": "/champlife-images/african-american-woman-filming-a-fitness-video.png",
+            "img_alt": "Trainer on a laptop guiding a client through a video workout"
+        },
+        {
+            "id": 3,
+            "slug": "custom-program",
+            "icon_class": "fa-solid fa-code",
+            "title": "CUSTOM PROGRAMMING",
+            "tagline": "Independent, guided plans",
+            "description": "Follow a tailored plan independently with progress tracking and support. (Coming soon)",
+            "img": "/champlife-images/gym-box-jump.png",
+            "img_alt": "Mobile app view of a personalized workout plan"
+        }
+    ],
     "achievement": [
       {
         "id": 0,
