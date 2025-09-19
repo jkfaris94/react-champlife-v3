@@ -1,4 +1,5 @@
-import axios from "axios";
+// axios not needed for dev. data is imported
+// import axios from "axios";
 import champlifeData from "../data/champlifeData.json"; // Direct import
 import { useEffect, useState, useMemo } from "react";
 import { useNavigate, useParams } from "react-router";
@@ -10,6 +11,7 @@ const useFunction = () => {
   const [classesData, setClassesData] = useState([]);
   const [achievementData, setAchievementData] = useState([]);
   const [featureData, setFeatureData] = useState([]);
+  const [personalTrainingData, setPersonalTrainingData] = useState([]);
   const [trainersData, setTrainersData] = useState([]);
   const [priceDataMonthly, setPriceDataMonthly] = useState([]);
   const [priceDataYearly, setPriceDataYearly] = useState([]);
@@ -33,6 +35,7 @@ const useFunction = () => {
         setClassesData(Array.isArray(data?.classes) ? data.classes : []);
         setAchievementData(Array.isArray(data?.achievement) ? data.achievement : []);
         setFeatureData(Array.isArray(data?.features) ? data.features : []);
+        setPersonalTrainingData(Array.isArray(data?.personalTraining) ? data.personalTraining : []);
         setTrainersData(Array.isArray(data?.trainers) ? data.trainers : []);
         setPriceDataMonthly(Array.isArray(data?.pricing?.[0]?.monthly) ? data.pricing[0].monthly : []);
         setPriceDataYearly(Array.isArray(data?.pricing?.[0]?.yearly) ? data.pricing[0].yearly : []);
@@ -73,6 +76,7 @@ const useFunction = () => {
     classesData,
     achievementData,
     featureData,
+    personalTrainingData,
     trainersData,
     priceDataMonthly,
     priceDataYearly,

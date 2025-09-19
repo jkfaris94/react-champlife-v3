@@ -3,7 +3,8 @@ import "./Home.css";
 import Bodybuilder from "../../Images/bearded-bodybuilder-dressed-in-a-tank-top.png";
 import { Link } from "react-router-dom";
 import WhoWeAre from "../../Component/MultiComponents/WhoWeAre";
-import WhyChooseUs from "../../Component/MultiComponents/WhyChooseUs";
+// import WhyChooseUs from "../../Component/MultiComponents/WhyChooseUs";
+import WhyPersonalTraining from "../../Component/MultiComponents/WhyPersonalTraining";
 import ProSelected from "../../Component/MultiComponents/ProSelected";
 import Achivment from "../../Component/MultiComponents/Achievement";
 import StrongTeam from "../../Component/MultiComponents/StrongTeam";
@@ -58,8 +59,12 @@ const Home = () => {
         <WhoWeAre />
       </div>
 
-      <div className="home-container-div-image1">
+      {/* <div className="home-container-div-image1">
         <WhyChooseUs />
+      </div> */}
+
+      <div className="home-container-div-image1">
+        <WhyPersonalTraining />
       </div>
 
       <div className="home-container-div-gray">

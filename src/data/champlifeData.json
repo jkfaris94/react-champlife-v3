@@ -244,6 +244,38 @@
         "description": "A welcoming environment where everyone supports each other's fitness journey."
       }
     ],
+    "personalTraining": [
+        {
+            "id": 0,
+            "icon_class": "fa-solid fa-bullseye",
+            "title": "PERSONALIZED PROGRAMS",
+            "description": "Training plans tailored to your goals, fitness level, and lifestyle — no cookie-cutter workouts."
+        },
+        {
+            "id": 1,
+            "icon_class": "fa-solid fa-user-check",
+            "title": "ACCOUNTABILITY & SUPPORT",
+            "description": "Stay consistent with a coach who tracks your progress and keeps you motivated every step of the way."
+        },
+        {
+            "id": 2,
+            "icon_class": "fa-solid fa-shield-heart",
+            "title": "SAFE & EFFECTIVE TRAINING",
+            "description": "Beyond proper form and technique, we use corrective exercise strategies to reduce pain, fix imbalances, and restore healthy movement."
+        },
+        {
+            "id": 3,
+            "icon_class": "fa-solid fa-chart-line",
+            "title": "FASTER RESULTS",
+            "description": "Progress more efficiently with a structured plan that adapts as you improve."
+        },
+        {
+            "id": 4,
+            "icon_class": "fa-solid fa-hand-holding-heart",
+            "title": "CONFIDENCE & LIFESTYLE IMPACT",
+            "description": "Build strength, confidence, and lasting healthy habits that extend beyond the gym."
+        }
+    ],
     "trainers": [
       {
         "id": 0,

@@ -1,3 +1,5 @@
+// currently not used, to be deleted if no longer needed
+
 import React from "react";
 import "./MultiComponents.css";
 import WomenBodybuilder from "../../Images/young-woman-posing-and-showing-muscles-in-gym.png";
