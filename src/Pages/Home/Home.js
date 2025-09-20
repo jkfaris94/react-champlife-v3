@@ -7,7 +7,8 @@ import WhoWeAre from "../../Component/MultiComponents/WhoWeAre";
 import WhyPersonalTraining from "../../Component/MultiComponents/WhyPersonalTraining";
 // import ProSelected from "../../Component/MultiComponents/ProSelected";
 import TrainingEnvironment from "../../Component/MultiComponents/TrainingEnviorment";
-import Achivment from "../../Component/MultiComponents/Achievement";
+// import Achievement from "../../Component/MultiComponents/Achievement";
+import InspireQuotes from "../../Component/MultiComponents/InspireQuotes";
 import StrongTeam from "../../Component/MultiComponents/StrongTeam";
 import WhatClintsSay from "../../Component/MultiComponents/WhatClintsSay";
 import ChoosePlan from "../../Component/MultiComponents/ChoosePlan";
@@ -76,8 +77,12 @@ const Home = () => {
         <TrainingEnvironment />
       </div>
 
+      {/* <div className="home-container-div-image2">
+        <Achievement />
+      </div> */}
+
       <div className="home-container-div-image2">
-        <Achivment />
+        <InspireQuotes />
       </div>
 
       <div className="home-container-div-gray">

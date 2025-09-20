@@ -11,6 +11,7 @@ const useFunction = () => {
   const [classesData, setClassesData] = useState([]);
   const [trainingEnvironmentData, setTrainingEnvironmentData] = useState([]);
   const [achievementData, setAchievementData] = useState([]);
+  const [inspireQuotesData, setInspireQuotesData] = useState([]);
   const [featureData, setFeatureData] = useState([]);
   const [personalTrainingData, setPersonalTrainingData] = useState([]);
   const [trainersData, setTrainersData] = useState([]);
@@ -36,6 +37,7 @@ const useFunction = () => {
         setClassesData(Array.isArray(data?.classes) ? data.classes : []);
         setTrainingEnvironmentData(Array.isArray(data?.trainingEnvironment) ? data.trainingEnvironment : []);
         setAchievementData(Array.isArray(data?.achievement) ? data.achievement : []);
+        setInspireQuotesData(Array.isArray(data?.inspireQuotes) ? data.inspireQuotes : []);
         setFeatureData(Array.isArray(data?.features) ? data.features : []);
         setPersonalTrainingData(Array.isArray(data?.personalTraining) ? data.personalTraining : []);
         setTrainersData(Array.isArray(data?.trainers) ? data.trainers : []);
@@ -78,6 +80,7 @@ const useFunction = () => {
     classesData,
     trainingEnvironmentData,
     achievementData,
+    inspireQuotesData,
     featureData,
     personalTrainingData,
     trainersData,

@@ -29,7 +29,7 @@ const TrainingEnvironment = () => {
         </div>
 
         <div className="common-button-design text-center">
-          <button onClick={handleClassesPage}>More Classes</button>
+          <button onClick={handleClassesPage}>TODO: Start Training</button>
         </div>
       </div>
     </>

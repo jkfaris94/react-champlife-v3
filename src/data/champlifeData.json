@@ -459,6 +459,28 @@
           }
         ]
       }
+    ],
+    "inspireQuotes": [
+        {
+        "id": 1,
+        "quote": "Champions aren’t born—they’re built through consistency."
+        },
+        {
+        "id": 2,
+        "quote": "Small wins daily create unstoppable momentum."
+        },
+        {
+        "id": 3,
+        "quote": "Recovery isn’t rest—it’s where growth happens."
+        },
+        {
+        "id": 4,
+        "quote": "Discipline is the bridge between goals and success."
+        },
+        {
+        "id": 5,
+        "quote": "Your future is built by what you do today, not tomorrow."
+        }
     ]
   }
 }
