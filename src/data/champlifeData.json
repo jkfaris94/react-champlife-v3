@@ -181,45 +181,52 @@
     "review": [
       {
         "id": 0,
-        "name": "Alex Rivera",
-        "time": "12 Weeks / Power Yoga",
-        "image": "/images/reviews/alex-rivera.jpg",
-        "comments": "Champ Power Yoga has completely transformed my approach to fitness. The instructors are incredible and the community is so supportive. I've never felt stronger or more centered in my life."
+        "name": "Lille F",
+        "time": "",
+        "image": "/champlife-images/female.png",
+        "comments": "I've been training boxing and muay thai with Johnny for over 2 years now. I love our sessions, Johnny is always professional and inspiring! Highly recommend his work for anyone who is looking for a new exciting workout and/or weight loss activity!"
       },
       {
         "id": 1,
-        "name": "Maria Gonzalez",
-        "time": "8 Weeks / Cycle Revolution",
-        "image": "/images/reviews/maria-gonzalez.jpg",
-        "comments": "The cycling classes are next level! The instructors know exactly how to push you without breaking you. I've lost 15 pounds and gained so much endurance. Best decision I ever made!"
+        "name": "Meri M",
+        "time": "",
+        "image": "/champlife-images/female.png",
+        "comments": "I’ve been working with Johnny for over 3 years. He’s trained me before, during, and after my pregnancy. At almost 32 years old I’m not only in the best shape of my life but I’m stronger and more agile than I’ve ever been. He’s the best. I’m forever grateful!"
       },
       {
         "id": 2,
-        "name": "Jordan Lee",
-        "time": "16 Weeks / Strength Forge",
-        "image": "/images/reviews/jordan-lee.jpg",
-        "comments": "As someone who was intimidated by weights, the Strength Forge classes changed everything for me. The progression is so smart and the coaches make it fun. I've never felt more confident."
+        "name": "Vivian H",
+        "time": "",
+        "image": "/champlife-images/female.png",
+        "comments": "Johnny is awesome with technique and his way of teaching. It’s very comprehensive and easy to follow. He pays great attention to details in my training and corrects me from wrong forms constantly. I feel my life is on track with the training with him. I highly recommended him to everyone that I know."
       },
       {
         "id": 3,
-        "name": "Taylor Brooks",
-        "time": "6 Weeks / HIIT Assault",
-        "image": "/images/reviews/taylor-brooks.jpg",
-        "comments": "HIIT Assault is brutal but in the best way possible. The results are unreal - I've gotten so much leaner and stronger in just 6 weeks. The coaches keep you motivated through every workout."
+        "name": "Hanna F",
+        "time": "2020",
+        "image": "/champlife-images/female.png",
+        "comments": "I’ve been training with Johnny for about a year now. Before training with him I would consistently have knee pain when working out. He was aware of this and began implementing exercises that would help strengthen my knees and hips so that I would no longer have this problem. He also taught me specific ways of foam rolling to target the problem areas. These things have changed my life because now I am able to lift heavier and challenge myself without worrying about injuring myself..."
       },
       {
         "id": 4,
-        "name": "Casey Morgan",
-        "time": "10 Weeks / Rhythm Flow",
-        "image": "/images/reviews/casey-morgan.jpg",
-        "comments": "I never thought I'd enjoy dance fitness but Rhythm Flow is so much fun! The instructors make everyone feel welcome and the music is always amazing. It's my favorite part of the week."
+        "name": "Gerardo R",
+        "time": "",
+        "image": "/champlife-images/male.png",
+        "comments": "I’ve been training with Johnny for about two years. With my back pains, broken wrist and torn MCL he’s been very strategic with the kind of workouts that we do to strengthen those problem areas. He’s very knowledgeable, which is shown with the countless certificates and dedication to continue learning. You’re guaranteed to have a great workout with Johnny."
       },
       {
         "id": 5,
-        "name": "Riley Patel",
-        "time": "14 Weeks / Body Combat",
-        "image": "/images/reviews/riley-patel.jpg",
-        "comments": "Body Combat has given me confidence I didn't know I had. The combination of cardio and martial arts moves is perfect. I feel like a warrior every time I leave class!"
+        "name": "Tom S",
+        "time": "",
+        "image": "/champlife-images/male.png",
+        "comments": "One of the absolute greatest. I've been training with Johnny for almost 7 years and he has continuously kept me on my toes, and in great shape. He has proven himself to be able to turn on a dime with my training and cater to whatever he feels I need that day. Whether it's boxing weight training, cardio conditioning or rehabilitation, Johnny is your guy."
+      },
+      {
+        "id": 5,
+        "name": "Noor",
+        "time": "",
+        "image": "/champlife-images/female.png",
+        "comments": "Great trainer, worked with me after surgery and was able to tailor the workouts to my needs and restrictions to get me back in shape. I continue to train with him now and am getting stronger every day. Highly recommend!"
       }
     ],
     "awards": [
