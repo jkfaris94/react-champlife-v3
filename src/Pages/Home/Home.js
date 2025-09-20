@@ -9,7 +9,8 @@ import WhyPersonalTraining from "../../Component/MultiComponents/WhyPersonalTrai
 import TrainingEnvironment from "../../Component/MultiComponents/TrainingEnviorment";
 // import Achievement from "../../Component/MultiComponents/Achievement";
 import InspireQuotes from "../../Component/MultiComponents/InspireQuotes";
-import StrongTeam from "../../Component/MultiComponents/StrongTeam";
+// import StrongTeam from "../../Component/MultiComponents/StrongTeam";
+import JohnnyOverview from "../../Component/MultiComponents/JohnnyOverview";
 import WhatClintsSay from "../../Component/MultiComponents/WhatClintsSay";
 import ChoosePlan from "../../Component/MultiComponents/ChoosePlan";
 import useFunction from "../../Hooks/useFunction";
@@ -86,7 +87,7 @@ const Home = () => {
       </div>
 
       <div className="home-container-div-gray">
-        <StrongTeam />
+        <JohnnyOverview />
       </div>
 
       <div className="home-container-div-image3">

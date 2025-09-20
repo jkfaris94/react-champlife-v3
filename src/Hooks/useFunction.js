@@ -72,6 +72,10 @@ const useFunction = () => {
     navigate("/");
   };
 
+  const handleAboutPage = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    navigate("/about-us");
+  };
   // ... other handlers (same as before)
 
   return {
@@ -91,6 +95,7 @@ const useFunction = () => {
     loading,
     error,
     handleHomePage,
+    handleAboutPage
     // ... other handlers
   };
 };
