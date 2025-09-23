@@ -8,7 +8,7 @@ import family1 from "../../Images/family_maternity_shoot-scaled.png"
 import useFunction from "../../Hooks/useFunction";
 
 const JohnnyOverview = () => {
-  const { handleAboutPage } = useFunction(); //link to about me 
+  const { handleJohnnyPage } = useFunction(); //link to about me  
 
   return (
     <>
@@ -41,7 +41,7 @@ const JohnnyOverview = () => {
             </div>
 
             <div className="common-button-design">
-              <button onClick={handleAboutPage}>Read More</button>
+              <button onClick={handleJohnnyPage}>Read More</button>
             </div>
           </div>
 

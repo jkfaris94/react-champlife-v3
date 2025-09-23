@@ -1,3 +1,12 @@
+
+/* header in Johnnydetails */
+.common-header-right-div-text h3 {
+  color: #eceff1;   /* change this to your desired color */
+  font-size: 1.2rem; /* optional: adjust size */
+  font-weight: 600; /* optional: make it bolder */
+  margin-top: 1rem; /* optional: spacing */
+}
+
 /* Who We Are Component Design */
 
 .common-header-right-div-title {

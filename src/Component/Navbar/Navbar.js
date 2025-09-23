@@ -76,7 +76,7 @@ const Navbar = () => {
                     <NavLink to="/classes" onClick={handleClassesPage}>
                       Classes
                     </NavLink>
-                    <NavLink to="/trainers" onClick={handleTrainersPage}>
+                    <NavLink to="/johnny" onClick={handleTrainersPage}>
                       Meet Johnny
                     </NavLink>
                     <NavLink to="/review" onClick={handleReviewPage}>

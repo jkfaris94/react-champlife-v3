@@ -17,6 +17,7 @@ import Review from "./Pages/Review/Review";
 import Pricing from "./Pages/Pricing/Pricing";
 import ContactUs from "./Pages/ContactUs/ContactUs";
 import UserProfile from "./Pages/UserProfile/UserProfile";
+import Johnny from "./Pages/MeetJohnny/Johnny";
 
 function App() {
   return (
@@ -44,7 +45,7 @@ function App() {
               </PrivateRoute>
             }
           />
-          <Route path="/trainers" element={<Trainers />} />
+          <Route path="/johnny" element={<Johnny />} />
           <Route path="/review" element={<Review />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/contact-us" element={<ContactUs />} />
