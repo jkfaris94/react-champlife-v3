@@ -209,7 +209,7 @@
 .pro-selected-card p {
   color: white;
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  /* -webkit-line-clamp: 4; */
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -272,7 +272,7 @@
   font-family: "Finlandica", sans-serif;
   display: -webkit-box;
   max-width: 400px;
-  -webkit-line-clamp: 4;
+  /* -webkit-line-clamp: 4; */
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -576,7 +576,7 @@
 
 .class-list-card p {
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  /* -webkit-line-clamp: 4; */
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -680,7 +680,7 @@
 .review-stories-card-description p {
   font-size: 16px;
   display: -webkit-box;
-  -webkit-line-clamp: 8;
+  /* -webkit-line-clamp: 8; */
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
