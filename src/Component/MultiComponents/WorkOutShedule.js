@@ -11,8 +11,8 @@ const WorkOutShedule = () => {
         <div className="row row-edit">
           <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-4">
             <div className="common-header-right-div-title">
-              <h4>Join Us</h4>
-              <h2>WORKOUT SCHEDULES</h2>
+              <h4>General</h4>
+              <h2>TRAINING HOURS</h2>
             </div>
 
             <div className="common-header-right-image-div">
@@ -28,7 +28,7 @@ const WorkOutShedule = () => {
                 </li>
 
                 <li>
-                  <span>06:00 AM - 12:00 PM</span>
+                  <span>07:00 AM - 9:00 PM</span>
                 </li>
               </ul>
 
@@ -38,7 +38,7 @@ const WorkOutShedule = () => {
                 </li>
 
                 <li>
-                  <span>06:00 AM - 12:00 PM</span>
+                  <span>07:00 AM - 9:00 PM</span>
                 </li>
               </ul>
 
@@ -48,7 +48,7 @@ const WorkOutShedule = () => {
                 </li>
 
                 <li>
-                  <span>06:00 AM - 12:00 PM</span>
+                  <span>07:00 AM - 9:00 PM</span>
                 </li>
               </ul>
 
@@ -58,7 +58,7 @@ const WorkOutShedule = () => {
                 </li>
 
                 <li>
-                  <span>06:00 AM - 12:00 PM</span>
+                  <span>07:00 AM - 9:00 PM</span>
                 </li>
               </ul>
 
@@ -68,7 +68,7 @@ const WorkOutShedule = () => {
                 </li>
 
                 <li>
-                  <span>06:00 AM - 12:00 PM</span>
+                  <span>07:00 AM - 9:00 PM</span>
                 </li>
               </ul>
 
@@ -78,7 +78,7 @@ const WorkOutShedule = () => {
                 </li>
 
                 <li>
-                  <span>06:00 AM - 12:00 PM</span>
+                  <span>07:00 AM - 9:00 PM</span>
                 </li>
               </ul>
 
@@ -88,13 +88,13 @@ const WorkOutShedule = () => {
                 </li>
 
                 <li>
-                  <span>Take Rest</span>
+                  <span>Rest Day</span>
                 </li>
               </ul>
             </div>
 
             <div className="common-button-design mt-4">
-              <button onClick={handleContactPage}>Free Trail</button>
+              <button onClick={handleContactPage}>Complimentary Fitness Evaluation</button>
             </div>
           </div>
         </div>
