@@ -73,7 +73,7 @@ const Certifications = () => {
             <div className="middle-vertical-line"></div>
           </div>
           <h4>Expertise</h4>
-          <h2>OUR CERTIFICATIONS</h2>
+          <h2>MY CERTIFICATIONS</h2>
         </div>
 
         <div className="certification-card">

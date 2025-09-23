@@ -478,11 +478,6 @@
             "more": "Skip the commute and let the gym come to you. With customized workouts and one-on-one guidance in your own space, you’ll build strength and confidence where you feel most comfortable. Available in Glendale, Pasadena, La Cañada, and NELA.",
             "packages": [
               {
-                "name": "24 Pack",
-                "pricePerSession": "$110",
-                "sessions": 24
-              },
-              {
                 "name": "12 Pack", 
                 "pricePerSession": "$115",
                 "sessions": 12
@@ -507,11 +502,6 @@
             "more": "Unlock your full potential with in-gym training. Take advantage of professional equipment, structured workouts, and expert guidance to push past limits in a motivating environment. Available in Pasadena and Glendale.",
             "packages": [
               {
-                "name": "24 Pack",
-                "pricePerSession": "$85",
-                "sessions": 24
-              },
-              {
                 "name": "12 Pack",
                 "pricePerSession": "$90",
                 "sessions": 12
@@ -535,11 +525,6 @@
             "description": "Online coaching from anywhere",
             "more": "Train from anywhere with live video coaching. I watch your form in real time, give precise cues and adjustments, and tailor each session to the space and equipment you have. Enjoy expert guidance, accountability, and customized workouts.",
             "packages": [
-                {
-                "name": "24 Pack",
-                "pricePerSession": "$85",
-                "sessions": 24
-              },
               {
                 "name": "12 Pack",
                 "pricePerSession": "$90",

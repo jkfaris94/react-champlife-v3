@@ -62,7 +62,7 @@ const Navbar = () => {
                   className="nav-links"
                   onClick={handleAboutPage}
                 >
-                  About Us
+                  About
                 </NavLink>
               </li>
 
@@ -77,10 +77,10 @@ const Navbar = () => {
                       Classes
                     </NavLink>
                     <NavLink to="/trainers" onClick={handleTrainersPage}>
-                      Trainers
+                      Meet Johnny
                     </NavLink>
                     <NavLink to="/review" onClick={handleReviewPage}>
-                      Review
+                      Reviews
                     </NavLink>
                     <NavLink to="/pricing" onClick={handlePricingPage}>
                       Pricing
