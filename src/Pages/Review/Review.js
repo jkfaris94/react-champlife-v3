@@ -1,7 +1,7 @@
 import React from "react";
 import "./Review.css";
 import Bodybuilder from "../../Images/handsome-brutal-bodybuilder-posing-with-dumbells.png";
-import OurAwards from "../../Component/MultiComponents/OurAwards";
+import Certifications from "../../Component/MultiComponents/Certifications";
 import ReviewStories from "../../Component/MultiComponents/ReviewStories";
 
 const Review = () => {
@@ -15,8 +15,8 @@ const Review = () => {
                 <div className="review-header-col-image">
                   <img src={Bodybuilder} alt="Bodybuilder__Image" />
                   <div className="review-header-col-image-centered">
-                    <h1>Happy</h1>
-                    <h1>Clients</h1>
+                    <h1>Champion</h1>
+                    <h1>Reviews</h1>
                   </div>
                 </div>
               </div>
@@ -28,16 +28,16 @@ const Review = () => {
 
                 <div className="review-header-right-div-text">
                   <p>
-                    Fit Factory review provide a structured and motivating way
-                    to achieve fitness goals, whether it's weight loss, muscle
-                    toning, stress relief, or overall health improvement. They
-                    offer variety.
+                    Every champion has a story. These reviews come from clients who 
+                    decided to invest in themselves and trust the process. From strength 
+                    gains to lasting lifestyle changes, their results are proof that with 
+                    the right guidance, you can achieve more than you imagined.
                   </p>
 
                   <p>
-                    Our instructor-led workouts in a group setting, targeting
-                    various fitness goals such as cardio, strength, flexibility,
-                    and mind-body connection.
+                    Champion Lifestyle is about more than workouts, it’s about creating 
+                    balance between training, nutrition, and recovery so you can look, 
+                    feel, and perform like a champion.
                   </p>
                 </div>
               </div>
@@ -51,7 +51,7 @@ const Review = () => {
       </div>
 
       <div className="review-container-div-image">
-        <OurAwards />
+        <Certifications />
       </div>
     </>
   );

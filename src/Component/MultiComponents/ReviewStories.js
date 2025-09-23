@@ -11,7 +11,7 @@ const ReviewStories = () => {
           <div className="middle-vertical-line-div">
             <div className="middle-vertical-line"></div>
           </div>
-          <h4>Member Stories</h4>
+          <h4>Client Stories</h4>
           <h2>TESTIMONIALS</h2>
         </div>
 
