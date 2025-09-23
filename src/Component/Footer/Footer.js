@@ -16,10 +16,7 @@ const Footer = () => {
               <div className="footer-container-div-logo">
                 <img src={logo} alt="logo_image" />
                 <p>
-                  Gymnasium services often include personalized training
-                  sessions tailored to individual fitness goals. Trainers guide
-                  clients through exercises, provide motivation, and ensure
-                  proper technique for optimal results.
+                  Train • Eat • Recover like a champion. Personal training in Pasadena, Glendale, La Cañada and surrounding areas.
                 </p>
               </div>
             </div>
@@ -105,29 +102,29 @@ const Footer = () => {
             <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-4 ">
               <div className="common-header-right-div-title">
                 <h4>Find Us</h4>
-                <h2>READY FOR WORKOUT</h2>
+                <h2>YOUR PERSONAL TRAINER</h2>
               </div>
 
               <div className="footer-adress-container">
-                <div className="footer-adress-div">
+                {/* <div className="footer-adress-div">
                   <p>
                     <i className="fa-solid fa-phone"></i>
                   </p>
-                  <p>Phone - +1 910-626-85255</p>
-                </div>
+                  <p>Phone - +1 253-906-5208</p>
+                </div> */}
 
                 <div className="footer-adress-div">
                   <p>
                     <i className="fa-regular fa-envelope"></i>
                   </p>
-                  <p>Email - info@fitfactory.com</p>
+                  <p>Email - Johnny@ChampLife.fit</p>
                 </div>
 
                 <div className="footer-adress-div">
                   <p>
                     <i className="fa-solid fa-location-dot"></i>
                   </p>
-                  <p>Address - 123 Fifth Avenue, New York, NY 10160</p>
+                  <p>Address - 117 W Bellevue Dr, Pasadena, CA 91105</p>
                 </div>
               </div>
             </div>
