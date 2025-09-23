@@ -15,8 +15,8 @@ const ContactUs = () => {
                 <div className="contact-us-header-col-image">
                   <img src={Bodybuilder} alt="Bodybuilder__Image" />
                   <div className="contact-us-header-col-image-centered">
-                    <h1>Get the</h1>
-                    <h1>Shape</h1>
+                    <h1>Challenge</h1>
+                    <h1>Yourself</h1>
                   </div>
                 </div>
               </div>
@@ -28,16 +28,19 @@ const ContactUs = () => {
 
                 <div className="contact-us-header-right-div-text">
                   <p>
-                    Fit Factory contact-us provide a structured and motivating
-                    way to achieve fitness goals, whether it's weight loss,
-                    muscle toning, stress relief, or overall health improvement.
-                    They offer variety.
+                    Have a question about coaching, pricing, or which plan fits your goals 
+                    I am here to help. Tell me what you want to achieve and a little about 
+                    your training history so I can point you in the right direction.
                   </p>
 
                   <p>
-                    Our instructor-led workouts in a group setting, targeting
-                    various fitness goals such as cardio, strength, flexibility,
-                    and mind-body connection.
+                    I create custom programs that balance what you want with what your body 
+                    needs. Whether you are focused on strength, fat loss, performance, or 
+                    rebuilding after an injury, we will build a plan that fits your life.
+                  </p>
+
+                  <p>
+                    Ready to get started Contact me today and let’s build your program
                   </p>
                 </div>
               </div>
