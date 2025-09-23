@@ -340,6 +340,156 @@
   margin: 0px;
 }
 
+/* Price Highlight Section */
+
+/* .price-highlight {
+  position: relative;
+  text-align: center;
+  margin: 2rem 0 1.5rem 0;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(59, 130, 246, 0.05) 100%);
+  border: 2px dashed #3b82f6;
+  border-radius: 15px;
+} */
+
+/* .price-badge {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #3b82f6;
+  color: white;
+  padding: 0.25rem 1rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+} */
+
+.highlight-price {
+  font-size: 3.5rem;
+  color: #3b82f6;
+  margin: 0;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.highlight-subtitle {
+  color: #3b82f6;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0.5rem 0 0.25rem 0;
+}
+
+.highlight-package {
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 600;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+/* Updated Table Styles */
+.package-pricing-table {
+  margin: 1rem 0 2rem 0;
+}
+
+.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #c3c3c3;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-table th,
+.pricing-table td {
+  padding: 0.75rem 0.5rem;
+  text-align: center;
+  border-bottom: 1px solid #dee2e6;
+  vertical-align: middle;
+}
+
+.pricing-table th {
+  background: #343434;
+  font-weight: 600;
+  color: #dfdddd;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.pricing-table td {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.pricing-table tr:hover {
+  background: rgba(59, 130, 246, 0.15) !important;
+}
+
+/* Highlight the 24-pack row in the table
+.pricing-table tr.highlight-row {
+  background: rgba(59, 130, 246, 0.1) !important;
+  border-left: 4px solid #3b82f6;
+} */
+
+.pricing-table tr.highlight-row:hover {
+  background: rgba(59, 130, 246, 0.15) !important;
+}
+
+/* .pricing-table tr.highlight-row td {
+  font-weight: 600;
+  color: #3b82f6;
+} */
+
+.pricing-table tr.highlight-row  {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.pricing-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+/* Description Section */
+.description-section {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.details-title {
+  color: #3b82f6;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.session-details {
+  font-size: 0.95rem;
+  color: #ccc;
+  line-height: 1.6;
+  margin: 0;
+  font-style: normal;
+  font-family: "Finlandica", sans-serif;
+}
+
+
 /* About us OverView Component Design */
 .about-vid-wrap {
   display: block;

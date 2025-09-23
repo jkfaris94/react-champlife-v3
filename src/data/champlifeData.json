@@ -467,6 +467,144 @@
         ]
       }
     ],
+    "pricing2": [
+      {
+        "packages": [
+          {
+            "id": 0,
+            "type": "in-home",
+            "title": "In-Home Training",
+            "description": "Personalized training in the comfort of your home",
+            "more": "Skip the commute and let the gym come to you. With customized workouts and one-on-one guidance in your own space, you’ll build strength and confidence where you feel most comfortable. Available in Glendale, Pasadena, La Cañada, and NELA.",
+            "packages": [
+              {
+                "name": "24 Pack",
+                "pricePerSession": "$110",
+                "sessions": 24
+              },
+              {
+                "name": "12 Pack", 
+                "pricePerSession": "$115",
+                "sessions": 12
+              },
+              {
+                "name": "6 Pack",
+                "pricePerSession": "$120", 
+                "sessions": 6
+              },
+              {
+                "name": "Single Session",
+                "pricePerSession": "$125",
+                "sessions": 1
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "type": "in-gym",
+            "title": "In-Gym Training",
+            "description": "Professional training at the gym",
+            "more": "Unlock your full potential with in-gym training. Take advantage of professional equipment, structured workouts, and expert guidance to push past limits in a motivating environment. Available in Pasadena and Glendale.",
+            "packages": [
+              {
+                "name": "24 Pack",
+                "pricePerSession": "$85",
+                "sessions": 24
+              },
+              {
+                "name": "12 Pack",
+                "pricePerSession": "$90",
+                "sessions": 12
+              },
+              {
+                "name": "6 Pack",
+                "pricePerSession": "$95",
+                "sessions": 6
+              },
+              {
+                "name": "Single Session",
+                "pricePerSession": "$100",
+                "sessions": 1
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": "virtual",
+            "title": "Virtual Training",
+            "description": "Online coaching from anywhere",
+            "more": "Train from anywhere with live video coaching. I watch your form in real time, give precise cues and adjustments, and tailor each session to the space and equipment you have. Enjoy expert guidance, accountability, and customized workouts.",
+            "packages": [
+                {
+                "name": "24 Pack",
+                "pricePerSession": "$85",
+                "sessions": 24
+              },
+              {
+                "name": "12 Pack",
+                "pricePerSession": "$90",
+                "sessions": 12
+              },
+              {
+                "name": "6 Pack",
+                "pricePerSession": "$95",
+                "sessions": 6
+              },
+              {
+                "name": "Single Session",
+                "pricePerSession": "$100",
+                "sessions": 1
+              }
+            ]
+          }
+        ],
+        "coaching": [
+          {
+            "id": 0,
+            "title": "BEGINNER PROGRAM",
+            "subtitle": "Guided Foundation Building",
+            "price": "79",
+            "category": "month",
+            "features": [
+              "Custom workout programs",
+              "Weekly video check-ins",
+              "Progress tracking app",
+              "Basic nutrition guidance",
+              "Community access"
+            ]
+          },
+          {
+            "id": 1,
+            "title": "INTERMEDIATE PROGRAM",
+            "subtitle": "Performance Optimization",
+            "price": "129",
+            "category": "month",
+            "features": [
+              "Advanced custom programming",
+              "Bi-weekly live coaching",
+              "Detailed form analysis",
+              "Personalized nutrition plan",
+              "Priority support"
+            ]
+          },
+          {
+            "id": 2,
+            "title": "ELITE PROGRAM",
+            "subtitle": "Championship Results",
+            "price": "199",
+            "category": "month",
+            "features": [
+              "Elite-level custom programming",
+              "Weekly live coaching sessions",
+              "Comprehensive video analysis",
+              "Advanced nutrition coaching",
+              "VIP community access",
+              "Monthly assessments"
+            ]
+          }
+        ]
+      }
+    ],
     "inspireQuotes": [
         {
         "id": 1,

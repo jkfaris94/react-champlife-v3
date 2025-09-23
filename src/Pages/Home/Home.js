@@ -13,6 +13,7 @@ import InspireQuotes from "../../Component/MultiComponents/InspireQuotes";
 import JohnnyOverview from "../../Component/MultiComponents/JohnnyOverview";
 import WhatClintsSay from "../../Component/MultiComponents/WhatClintsSay";
 import ChoosePlan from "../../Component/MultiComponents/ChoosePlan";
+import Packages from "../../Component/MultiComponents/Packages";
 import useFunction from "../../Hooks/useFunction";
 const Home = () => {
   const { handleContactPage } = useFunction();
@@ -94,8 +95,12 @@ const Home = () => {
         <WhatClintsSay />
       </div>
 
-      <div className="home-container-div-gray">
+      {/* <div className="home-container-div-gray">
         <ChoosePlan />
+      </div> */}
+
+      <div className="home-container-div-gray">
+        <Packages />
       </div>
     </>
   );

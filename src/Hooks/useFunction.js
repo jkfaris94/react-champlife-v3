@@ -17,6 +17,9 @@ const useFunction = () => {
   const [trainersData, setTrainersData] = useState([]);
   const [priceDataMonthly, setPriceDataMonthly] = useState([]);
   const [priceDataYearly, setPriceDataYearly] = useState([]);
+  const [Pricing2Data, setPricing2Data] = useState(null);
+  const [sessionPackages, setSessionPackages] = useState([]); // 1-on-1 session packages
+  const [coachingPackages, setCoachingPackages] = useState([]); // Custom program coaching
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   
@@ -44,6 +47,39 @@ const useFunction = () => {
         setPriceDataMonthly(Array.isArray(data?.pricing?.[0]?.monthly) ? data.pricing[0].monthly : []);
         setPriceDataYearly(Array.isArray(data?.pricing?.[0]?.yearly) ? data.pricing[0].yearly : []);
         
+        // Process new pricing2 structure
+        if (data?.pricing2 && data.pricing2[0]) {
+          const pricingData = data.pricing2[0];
+          
+          // Extract 1-on-1 session packages (home, gym, virtual)
+          const sessionData = [];
+          const sessionTypes = pricingData.packages.filter(pkg => 
+            ['in-home', 'in-gym', 'virtual'].includes(pkg.type)
+          );
+          
+          sessionTypes.forEach(sessionType => {
+            sessionData.push({
+              id: sessionType.id,
+              title: sessionType.title,
+              type: sessionType.type,
+              description: sessionType.description,
+              more: sessionType.more,
+              packages: sessionType.packages.map(pkg => ({
+                ...pkg,
+                totalPrice: calculateTotal(pkg.sessions, pkg.pricePerSession)
+              }))
+            });
+          });
+          
+          setSessionPackages(sessionData);
+          
+          // Extract coaching packages (monthly pricing)
+          const coachingData = pricingData.coaching || [];
+          setCoachingPackages(Array.isArray(coachingData) ? coachingData : []);
+          
+          setPricing2Data(pricingData);
+        }
+        
       } catch (error) {
         console.error("Error processing Champlife data:", error);
         setError("Failed to process data");
@@ -54,6 +90,12 @@ const useFunction = () => {
 
     initializeData();
   }, []);
+
+  // Helper function to calculate total price from sessions and per-session price
+  const calculateTotal = (sessions, pricePerSession) => {
+  const priceNum = parseFloat(pricePerSession.replace(/[$,]/g, ''));
+  return `$${(sessions * priceNum).toLocaleString()}`;
+};
 
   // Rest of your hook remains the same...
   const filterData = useMemo(() => 
@@ -76,6 +118,11 @@ const useFunction = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     navigate("/about-us");
   };
+
+  const handlePackagesPage = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    navigate("/packages");
+  };
   // ... other handlers (same as before)
 
   return {
@@ -90,12 +137,17 @@ const useFunction = () => {
     trainersData,
     priceDataMonthly,
     priceDataYearly,
+    Pricing2Data,
+    sessionPackages,
+    coachingPackages,
     filterData,
     filterDetailsData,
     loading,
     error,
     handleHomePage,
-    handleAboutPage
+    handleAboutPage,
+    handlePackagesPage,
+    calculateTotal,
     // ... other handlers
   };
 };
