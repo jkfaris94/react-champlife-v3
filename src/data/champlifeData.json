@@ -203,7 +203,7 @@
       {
         "id": 3,
         "name": "Hanna F",
-        "time": "2020",
+        "time": "",
         "image": "/champlife-images/female.png",
         "comments": "I’ve been training with Johnny for about a year now. Before training with him I would consistently have knee pain when working out. He was aware of this and began implementing exercises that would help strengthen my knees and hips so that I would no longer have this problem. He also taught me specific ways of foam rolling to target the problem areas. These things have changed my life because now I am able to lift heavier and challenge myself without worrying about injuring myself..."
       },
@@ -626,6 +626,64 @@
         "id": 5,
         "quote": "Your future is built by what you do today, not tomorrow."
         }
-    ]
+    ], 
+    "certifications": [
+    {
+      "id": 1,
+      "image": "/assets/images/certifications/nasm-cert.png",
+      "title": "Certified Personal Trainer",
+      "issuer": "National Academy of Sports Medicine (NASM)",
+      "date": "2015",
+      "description": "Comprehensive training in exercise science and client assessment"
+    },
+    {
+      "id": 2,
+      "image": "/assets/images/certifications/ace-fitness.png",
+      "title": "Corrective Exercise Specialization (CES)",
+      "issuer": "National Academy of Sports Medicine (NASM)",
+      "date": "2016",
+      "description": "Focuses on identifying and addressing movement dysfunctions, muscular imbalances, and injury risks through a structured corrective exercise approach."
+    },
+    {
+      "id": 3,
+      "image": "/assets/images/certifications/cscs-nsca.png",
+      "title": "Performance Enhancement Specialization (PES)",
+      "issuer": "National Academy of Sports Medicine (NASM)",
+      "date": "2017",
+      "description": "Designed for fitness coaches, and trainers who want to help athletes and active individuals improve their strength, power, speed, agility, and overall athletic performance using evidence-based training methods."
+    },
+    {
+      "id": 4,
+      "image": "/assets/images/certifications/rrca-coach.png",
+      "title": "Sports Performance Specialist",
+      "issuer": "Nick Curson - Speed of Sport",
+      "date": "2017",
+      "description": "Unique neuromuscular training system designed to develop explosive power, speed, and agility by focusing on reflexive strength, elasticity, and movement efficiency. Unlike traditional weightlifting and strength programs, Speed of Sport training emphasizes fascial-driven movements, plyometrics, isometrics, and neurological activation to enhance athletic performance."
+    },
+    {
+      "id": 5,
+      "image": "/assets/images/certifications/cpr-aed.png",
+      "title": "Functional Range Conditioning Mobility Specialist (FRCms)",
+      "issuer": "Functional Range Conditioning",
+      "date": "2019",
+      "description": "Science-based mobility training system designed to improve joint health, increase flexibility, and enhance movement control."
+    },
+    {
+      "id": 6,
+      "image": "/assets/images/certifications/cpr-aed.png",
+      "title": "Precision Nutrition (PN1)",
+      "issuer": "Precision Nutrition",
+      "date": "2019",
+      "description": "A science-based nutrition coaching program that teaches fitness professionals how to help clients improve their health, performance, and body composition through sustainable nutrition habits."
+    },
+    {
+      "id": 7,
+      "image": "/assets/images/certifications/cpr-aed.png",
+      "title": "Performance Breathing Coach",
+      "issuer": "XPT",
+      "date": "2019",
+      "description": ""
+    }
+  ]
   }
 }

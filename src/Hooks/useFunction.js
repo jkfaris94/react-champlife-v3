@@ -8,6 +8,7 @@ const useFunction = () => {
   // Initialize with actual data instead of empty arrays
   const [reviewData, setReviewData] = useState([]);
   const [awardData, setAwardData] = useState([]);
+  const [certificationsData, setCertificationsData] = useState([]);
   const [classesData, setClassesData] = useState([]);
   const [trainingEnvironmentData, setTrainingEnvironmentData] = useState([]);
   const [achievementData, setAchievementData] = useState([]);
@@ -37,6 +38,7 @@ const useFunction = () => {
         
         setReviewData(Array.isArray(data?.review) ? data.review : []);
         setAwardData(Array.isArray(data?.awards) ? data.awards : []);
+        setCertificationsData(Array.isArray(data?.certifications) ? data.certifications : []);
         setClassesData(Array.isArray(data?.classes) ? data.classes : []);
         setTrainingEnvironmentData(Array.isArray(data?.trainingEnvironment) ? data.trainingEnvironment : []);
         setAchievementData(Array.isArray(data?.achievement) ? data.achievement : []);
@@ -128,6 +130,7 @@ const useFunction = () => {
   return {
     reviewData,
     awardData,
+    certificationsData,
     classesData,
     trainingEnvironmentData,
     achievementData,
