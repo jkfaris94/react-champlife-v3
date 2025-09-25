@@ -105,7 +105,7 @@
   right: 0%;
 }
 
-/* Why Choose Us Component Design */
+/* Why Personal Training Component Design */
 .why-choose-us-div {
   color: white;
   font-family: "Finlandica", sans-serif;
@@ -158,7 +158,7 @@
   color: white;
 }
 
-/* Pro Selected Component Design */
+/* Pro Selected Component Design (Training Enviorment) */
 
 .common-header-vartical-div-title {
   text-align: center;
@@ -227,7 +227,7 @@
 }
 
 /* Achivment Component Design */
-.achivment-card {
+/* .achivment-card {
   text-align: center;
 }
 
@@ -246,11 +246,11 @@
   color: white;
   font-family: "Finlandica", sans-serif;
   font-size: 20px;
-}
+} */
 
 /* Strong Trainers Team Component Design */
 
-.strong-team-slider-div {
+/* .strong-team-slider-div {
   margin: auto;
   display: block;
   width: 80%;
@@ -260,7 +260,7 @@
   border-radius: 20px !important;
   height: auto;
   width: 100%;
-}
+} */
 
 /* What Client Say Review Component Design */
 
@@ -310,14 +310,14 @@
   display: block;
 }
 
-/* Choose Plan Component Design */
+/* Packages Component Design */
 .choose-plan-card {
   text-align: center;
   padding: 3rem 2rem;
   color: white;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
   border-radius: 20px;
-  border: 1px dotted #3b82f6;
+  /* border: 1px dotted #3b82f6; */
   background-color: #222222;
 }
 
@@ -351,17 +351,17 @@
 
 /* Price Highlight Section */
 
-/* .price-highlight {
+.price-highlight {
   position: relative;
   text-align: center;
   margin: 2rem 0 1.5rem 0;
   padding: 1.5rem;
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(59, 130, 246, 0.05) 100%);
-  border: 2px dashed #3b82f6;
+  /* background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(59, 130, 246, 0.05) 100%); */
+  /* border: 2px dashed #3b82f6; */
   border-radius: 15px;
-} */
+}
 
-/* .price-badge {
+.price-badge {
   position: absolute;
   top: -10px;
   left: 50%;
@@ -374,7 +374,7 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-} */
+}
 
 .highlight-price {
   font-size: 3.5rem;
@@ -555,7 +555,7 @@
 
 /* Classes List Component Design */
 
-.class-list-card {
+/* .class-list-card {
   padding: 20px;
   text-align: center;
   color: white;
@@ -585,17 +585,17 @@
 
 .class-list-card p {
   display: -webkit-box;
-  /* -webkit-line-clamp: 4; */
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
   font-family: "Finlandica", sans-serif;
   font-size: 15px;
   font-weight: 100;
-}
+} */
 
 /* Workout Shedule Component Design */
-.workout-shedule-list-div ul {
+/* .workout-shedule-list-div ul {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
@@ -623,7 +623,7 @@
   font-size: 14px;
   padding-top: 0px;
   margin: 0px;
-}
+} */
 
 /* InspireQuotes Component Design */
 .quote {
@@ -633,24 +633,6 @@
   text-align: center;
 }
 
-/* Expart Trainers Component Design */
-
-.trainers-card {
-  margin: 4rem auto 0rem auto;
-}
-
-.tainers-card-image {
-  margin: 1rem auto;
-}
-
-.tainers-card-image img {
-  width: auto;
-  height: auto;
-  padding-left: 4rem;
-  opacity: 0.9;
-  filter: brightness(100%) contrast(100%) saturate(60%) blur(0px)
-    hue-rotate(0deg);
-}
 
 /* Review Stories Component Design */
 .review-stories-card {
@@ -723,9 +705,9 @@
 
 /* Certifications component  */
 .certification-card {
-  padding: 40px 20px;
+  margin: 4rem auto 0rem auto;
   max-width: 1200px;
-  margin: 0 auto;
+  padding: 40px 20px;
 }
 
 .certification-card-item {
@@ -733,6 +715,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  color: white; /* Base color, will be overridden by specific elements */
 }
 
 .certification-image-wrapper {
@@ -741,13 +724,13 @@
   margin-bottom: 15px;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .certification-image-wrapper:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 .certification-image {
@@ -755,6 +738,8 @@
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
+  opacity: 0.9;
+  filter: brightness(100%) contrast(100%) saturate(60%) blur(0px) hue-rotate(0deg);
 }
 
 .certification-image:hover {
@@ -770,27 +755,27 @@
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 8px;
-  color: #2c3e50;
+  color: #3b82f6; 
   line-height: 1.3;
 }
 
 .certification-issuer {
   font-size: 0.9rem;
-  color: #7f8c8d;
+  color: #d3d3d3; /* Slightly darker gray for hierarchy */
   margin-bottom: 5px;
   font-weight: 500;
 }
 
 .certification-date {
   font-size: 0.8rem;
-  color: #95a5a6;
+  color: #b0b0b0; /* Even darker gray for secondary info */
   margin-bottom: 8px;
   font-style: italic;
 }
 
 .certification-description {
   font-size: 0.85rem;
-  color: #5d6d7e;
+  color: #e0e0e0; /* Medium gray for readability */
   line-height: 1.4;
   margin: 0;
   display: -webkit-box;

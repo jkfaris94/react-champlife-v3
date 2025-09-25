@@ -29,12 +29,7 @@ const Error = () => {
 
                 <div className="error-404-header-right-div-text">
                   <p>
-                    A 404 page not found message is a response code that
-                    indicates the server couldn't find the requested webpage. A
-                    short description might explain that the page the user is
-                    trying to access doesn't exist or has been moved, and it
-                    could include a friendly message encouraging the user to
-                    return to the homepage or navigate elsewhere on the site.
+                   Whoa! hold up, we couldn't find that page
                   </p>
                 </div>
               </div>

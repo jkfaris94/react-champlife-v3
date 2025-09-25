@@ -54,14 +54,7 @@ const ContactForm = () => {
                     <i className="fa-brands fa-twitter"></i>
                   </Link>
                   <Link to="/">
-                    <i className="fa-brands fa-skype"></i>
-                  </Link>
-                  <Link to="/">
-                    <i className="fa-brands fa-linkedin-in"></i>
-                  </Link>
-
-                  <Link to="/">
-                    <i className="fa-brands fa-pinterest-p"></i>
+                    <i className="fa-brands fa-instagram"></i>
                   </Link>
                 </div>
               </div>

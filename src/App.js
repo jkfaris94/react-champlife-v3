@@ -12,7 +12,6 @@ import Error from "./Pages/Error/Error";
 import Footer from "./Component/Footer/Footer";
 import About from "./Pages/About/About";
 import ClassesDetails from "./Pages/ClassesDetails/ClassesDetails";
-import Trainers from "./Pages/Trainers/Trainers";
 import Review from "./Pages/Review/Review";
 import Pricing from "./Pages/Pricing/Pricing";
 import ContactUs from "./Pages/ContactUs/ContactUs";
@@ -49,7 +48,7 @@ function App() {
           <Route path="/review" element={<Review />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/contact-us" element={<ContactUs />} />
-          <Route path="/login" element={<Login />} />
+          {/* <Route path="/login" element={<Login />} /> */}
           <Route path="/register" element={<Register />} />
           <Route exact path="*" element={<Error />} />
         </Routes>

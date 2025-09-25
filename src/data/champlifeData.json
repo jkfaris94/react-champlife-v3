@@ -615,7 +615,7 @@
     "certifications": [
     {
       "id": 1,
-      "image": "/assets/images/certifications/nasm-cert.png",
+      "image": "/champlife-images/certs/CPT.png",
       "title": "Certified Personal Trainer",
       "issuer": "National Academy of Sports Medicine (NASM)",
       "date": "2015",
@@ -623,7 +623,7 @@
     },
     {
       "id": 2,
-      "image": "/assets/images/certifications/ace-fitness.png",
+      "image": "/champlife-images/certs/CES.png",
       "title": "Corrective Exercise Specialization (CES)",
       "issuer": "National Academy of Sports Medicine (NASM)",
       "date": "2016",
@@ -631,7 +631,7 @@
     },
     {
       "id": 3,
-      "image": "/assets/images/certifications/cscs-nsca.png",
+      "image": "/champlife-images/certs/PES.png",
       "title": "Performance Enhancement Specialization (PES)",
       "issuer": "National Academy of Sports Medicine (NASM)",
       "date": "2017",
@@ -639,7 +639,7 @@
     },
     {
       "id": 4,
-      "image": "/assets/images/certifications/rrca-coach.png",
+      "image": "/champlife-images/certs/sps.png",
       "title": "Sports Performance Specialist",
       "issuer": "Nick Curson - Speed of Sport",
       "date": "2017",
@@ -647,7 +647,7 @@
     },
     {
       "id": 5,
-      "image": "/assets/images/certifications/cpr-aed.png",
+      "image": "/champlife-images/certs/FRCms.png",
       "title": "Functional Range Conditioning Mobility Specialist (FRCms)",
       "issuer": "Functional Range Conditioning",
       "date": "2019",
@@ -655,7 +655,7 @@
     },
     {
       "id": 6,
-      "image": "/assets/images/certifications/cpr-aed.png",
+      "image": "/champlife-images/certs/PN1.png",
       "title": "Precision Nutrition (PN1)",
       "issuer": "Precision Nutrition",
       "date": "2019",

@@ -63,8 +63,8 @@ const Register = () => {
                 <div className="login-header-col-image">
                   <img src={Bodybuilder} alt="Bodybuilder__Image" />
                   <div className="login-header-col-image-centered">
-                    <h1>Gate the</h1>
-                    <h1>Shape</h1>
+                    <h1>Achieve</h1>
+                    <h1>Greatness</h1>
                   </div>
                 </div>
               </div>

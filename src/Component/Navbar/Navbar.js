@@ -11,7 +11,6 @@ const Navbar = () => {
   const {
     handleHomePage,
     handleAboutPage,
-    handleClassesPage,
     handleReviewPage,
     handlePricingPage,
     handleTrainersPage,
@@ -73,9 +72,9 @@ const Navbar = () => {
                     <i className="fa-solid fa-angle-down down-arrow"></i>
                   </NavLink>
                   <div className="dropdown-content">
-                    <NavLink to="/classes" onClick={handleClassesPage}>
+                    {/* <NavLink to="/classes" onClick={handleClassesPage}>
                       Classes
-                    </NavLink>
+                    </NavLink> */}
                     <NavLink to="/johnny" onClick={handleTrainersPage}>
                       Meet Johnny
                     </NavLink>
@@ -121,11 +120,11 @@ const Navbar = () => {
                 <>
                   <li>
                     <NavLink
-                      to="/login"
+                      // to="/login"
                       className="nav-links"
-                      onClick={handleLogInPage}
+                      // onClick={handleLogInPage}
                     >
-                      Login
+                      Client Portal (coming soon)
                     </NavLink>
                   </li>
                 </>

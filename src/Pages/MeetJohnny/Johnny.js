@@ -4,6 +4,7 @@ import Bodybuilder from "../../Images/female-bodybuilder-training-at-the-gym.png
 import WhyPersonalTraining from "../../Component/MultiComponents/WhyPersonalTraining";
 import JohnnyDetails from "../../Component/MultiComponents/JohnnyDetails";
 import ExpartTrainers from "../../Component/MultiComponents/ExpartTrainers";
+import Certifications from "../../Component/MultiComponents/Certifications";
 
 const Johnny = () => {
   return (
@@ -53,7 +54,7 @@ const Johnny = () => {
       </div>
                     {/* TODO: create collage of images */}
       <div className="trainer-container-div-image">
-        <ExpartTrainers />
+        <Certifications />
       </div>
     </>
   );

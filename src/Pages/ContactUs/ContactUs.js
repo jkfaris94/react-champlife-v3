@@ -53,9 +53,9 @@ const ContactUs = () => {
         <ContactForm />
       </div>
 
-      <div>
+      {/* <div>
         <ContactGoogleMap />
-      </div>
+      </div> */}
     </>
   );
 };
