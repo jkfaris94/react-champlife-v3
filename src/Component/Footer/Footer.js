@@ -16,7 +16,7 @@ const Footer = () => {
               <div className="footer-container-div-logo">
                 <img src={logo} alt="logo_image" />
                 <p>
-                  Train • Eat • Recover like a champion. Personal training in Pasadena, Glendale, La Cañada and surrounding areas.
+                  Eat • Sleep • Train like a champion. 
                 </p>
               </div>
             </div>
@@ -60,7 +60,7 @@ const Footer = () => {
                   </Link>
                 </div>
 
-                <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6 footer-links-div">
+                {/* <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6 footer-links-div">
                   <h4>Public Sources</h4>
                   <Link
                     to="/"
@@ -95,14 +95,14 @@ const Footer = () => {
                     </p>
                     <p>Site Search</p>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
 
             <div className="col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-4 ">
               <div className="common-header-right-div-title">
-                <h4>Find Us</h4>
-                <h2>YOUR PERSONAL TRAINER</h2>
+                <h4>Reach Out</h4>
+                <h2>Champion Lifestyle LLC</h2>
               </div>
 
               <div className="footer-adress-container">
