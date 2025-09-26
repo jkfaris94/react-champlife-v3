@@ -34,7 +34,7 @@ const Footer = () => {
                       {" "}
                       <i className="fa-solid fa-caret-right"></i>
                     </p>
-                    <p>Classes Details</p>
+                    <p>Home</p>
                   </Link>
                   <Link
                     to="/"
@@ -45,7 +45,7 @@ const Footer = () => {
                       {" "}
                       <i className="fa-solid fa-caret-right"></i>
                     </p>
-                    <p>Trainer Profiles</p>
+                    <p>Meet Johnny</p>
                   </Link>
                   <Link
                     to="/"
@@ -56,7 +56,29 @@ const Footer = () => {
                       {" "}
                       <i className="fa-solid fa-caret-right"></i>
                     </p>{" "}
-                    <p>F.A.Q</p>
+                    <p>Reviews</p>
+                  </Link>
+                  <Link
+                    to="/"
+                    className="footer-links"
+                    onClick={handleHomePage}
+                  >
+                    <p>
+                      {" "}
+                      <i className="fa-solid fa-caret-right"></i>
+                    </p>{" "}
+                    <p>Pricing</p>
+                  </Link>
+                  <Link
+                    to="/"
+                    className="footer-links"
+                    onClick={handleHomePage}
+                  >
+                    <p>
+                      {" "}
+                      <i className="fa-solid fa-caret-right"></i>
+                    </p>{" "}
+                    <p>Contact</p>
                   </Link>
                 </div>
 
@@ -130,12 +152,13 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <div className="footer-copy-write-div">
+          <p>
+            Copyright <span>©</span> 2025 Champion Lifestyle LLC {""}
+          </p>
+        </div>
       </div>
-      <div className="footer-copy-write-div">
-        <p>
-          Copyright <span>©</span> 2025 Champion Lifestyle LLC {""}
-        </p>
-      </div>
+      
     </>
   );
 };
