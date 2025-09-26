@@ -3,10 +3,9 @@ import "./Footer.css";
 import "../MultiComponents/MultiComponents.css";
 import logo from "../../Images/champion-lifestyle-no-background.png";
 import { Link } from "react-router-dom";
-import useFunction from "../../Hooks/useFunction";
+
 
 const Footer = () => {
-  const { handleHomePage } = useFunction();
   return (
     <>
       <div className="footer-container-div-bg-image">
@@ -28,7 +27,7 @@ const Footer = () => {
                   <Link
                     to="/"
                     className="footer-links"
-                    onClick={handleHomePage}
+                    
                   >
                     <p>
                       {" "}
@@ -37,9 +36,8 @@ const Footer = () => {
                     <p>Home</p>
                   </Link>
                   <Link
-                    to="/"
+                    to="/johnny"
                     className="footer-links"
-                    onClick={handleHomePage}
                   >
                     <p>
                       {" "}
@@ -48,9 +46,8 @@ const Footer = () => {
                     <p>Meet Johnny</p>
                   </Link>
                   <Link
-                    to="/"
+                    to="/reviews"
                     className="footer-links"
-                    onClick={handleHomePage}
                   >
                     <p>
                       {" "}
@@ -59,9 +56,8 @@ const Footer = () => {
                     <p>Reviews</p>
                   </Link>
                   <Link
-                    to="/"
+                    to="/pricing"
                     className="footer-links"
-                    onClick={handleHomePage}
                   >
                     <p>
                       {" "}
@@ -70,9 +66,8 @@ const Footer = () => {
                     <p>Pricing</p>
                   </Link>
                   <Link
-                    to="/"
+                    to="/contact"
                     className="footer-links"
-                    onClick={handleHomePage}
                   >
                     <p>
                       {" "}
