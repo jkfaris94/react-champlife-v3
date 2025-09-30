@@ -11,7 +11,7 @@ const Navbar = () => {
   const {
     handleHomePage,
     handleAboutPage,
-    handleReviewPage,
+    handleReviewsPage,
     handlePricingPage,
     handleTrainersPage,
     handleContactPage,
@@ -78,7 +78,7 @@ const Navbar = () => {
                     <NavLink to="/johnny" >
                       Meet Johnny
                     </NavLink>
-                    <NavLink to="/review" onClick={handleReviewPage}>
+                    <NavLink to="/reviews" onClick={handleReviewsPage}>
                       Reviews
                     </NavLink>
                     <NavLink to="/pricing" onClick={handlePricingPage}>

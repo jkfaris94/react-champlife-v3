@@ -130,6 +130,11 @@ const useFunction = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     navigate("/Johnny");
   };
+
+    const handleReviewsPage = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    navigate("/reviews");
+  };
   // ... other handlers (same as before)
 
   return {
@@ -156,6 +161,7 @@ const useFunction = () => {
     handleAboutPage,
     handlePackagesPage,
     handleJohnnyPage,
+    handleReviewsPage,
     calculateTotal,
     // ... other handlers
   };
