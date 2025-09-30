@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import Bodybuilder from "../../Images/bearded-bodybuilder-dressed-in-a-tank-top.png";
+import Victory from "../../Images/victory-bg-removed.png";
 import { Link } from "react-router-dom";
 import WhoWeAre from "../../Component/MultiComponents/WhoWeAre";
 // import WhyChooseUs from "../../Component/MultiComponents/WhyChooseUs";
@@ -46,7 +46,7 @@ const Home = () => {
               </div>
               <div className="col-lg-11 col-md-12 col-sm-12 col-xs-12 text-center">
                 <div className="header-col-image">
-                  <img src={Bodybuilder} alt="Bodybuilder__Image" />
+                  <img src={Victory} alt="Victory__Image" />
                   <div className="header-col-image-centered">
                     <h1>Eat | Sleep | Train</h1>
                     <h1>Like a Champion</h1>

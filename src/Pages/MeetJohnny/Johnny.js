@@ -1,9 +1,8 @@
 import React from "react";
 import "./Johnny.css";
-import Bodybuilder from "../../Images/female-bodybuilder-training-at-the-gym.png";
+import JohnnyBelt from "../../Images/champion-belt-fist.png";
 import WhyPersonalTraining from "../../Component/MultiComponents/WhyPersonalTraining";
 import JohnnyDetails from "../../Component/MultiComponents/JohnnyDetails";
-import ExpartTrainers from "../../Component/MultiComponents/ExpartTrainers";
 import Certifications from "../../Component/MultiComponents/Certifications";
 
 const Johnny = () => {
@@ -15,10 +14,10 @@ const Johnny = () => {
             <div className="row row-edit">
               <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-4">
                 <div className="trainers-header-col-image">
-                  <img src={Bodybuilder} alt="Bodybuilder__Image" />
+                  <img src={JohnnyBelt} alt="johnny_belt_Image" />
                   <div className="trainers-header-col-image-centered">
-                    <h1>elite</h1>
-                    <h1>trainer</h1>
+                    <h1>coach</h1>
+                    <h1>johnny</h1>
                   </div>
                 </div>
               </div>
@@ -55,6 +54,10 @@ const Johnny = () => {
                     {/* TODO: create collage of images */}
       <div className="trainer-container-div-image">
         <Certifications />
+      </div>
+
+      <div className="trainer-container-div-image">
+        <WhyPersonalTraining />
       </div>
     </>
   );

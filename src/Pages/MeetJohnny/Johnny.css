@@ -15,8 +15,11 @@
   text-align: center;
 }
 .trainers-header-col-image img {
-  width: auto;
+  max-width: 600px; /* adjust to taste */
+  width: 100%;      /* scales responsively down */
   height: auto;
+  margin: 0 auto;
+  display: block;
   opacity: 0.9;
   filter: brightness(100%) contrast(100%) saturate(60%) blur(0px)
     hue-rotate(0deg);
