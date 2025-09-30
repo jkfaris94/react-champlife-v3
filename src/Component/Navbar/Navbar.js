@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import $ from "jquery";
-import logo from "../../Images/logo-no-background-white.png";
+import logo from "../../Images/logo-champion-lifestyle-simple-text.png";
 import useAuth from "../../Hooks/useAuth";
 import useFunction from "../../Hooks/useFunction";
 

@@ -51,7 +51,7 @@ nav .logo img {
   margin: 0px;
   padding: 0;
   width: auto;
-  height: 100%;
+  height: clamp(80px, 8vw, 90px);
   cursor: pointer;
   display: block;
 }
