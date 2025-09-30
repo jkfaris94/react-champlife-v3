@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import $ from "jquery";
-import logo from "../../Images/fitfactory_logo.png";
+import logo from "../../Images/logo-no-background-white.png";
 import useAuth from "../../Hooks/useAuth";
 import useFunction from "../../Hooks/useFunction";
 

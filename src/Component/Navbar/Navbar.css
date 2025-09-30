@@ -41,14 +41,22 @@ nav {
   flex-wrap: wrap;
   height: 4.5rem;
 }
+
+nav .logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
 nav .logo img {
   margin: 0px;
-  padding: 0.5rem 0rem 0.8rem 0rem;
-  width: 200px;
+  padding: 0;
+  width: auto;
+  height: 100%;
   cursor: pointer;
+  display: block;
 }
 
-nav .logo h1 {
+/* nav .logo h1 {
   margin: 0px;
   padding: 0.5rem 0rem 1.5rem 0rem;
   width: 160px;
@@ -57,13 +65,14 @@ nav .logo h1 {
   font-size: 70px;
   font-weight: 500;
   color: white;
-}
+} */
 
 nav ul {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   list-style: none;
-  padding: 30px 0px 0px 0px;
+  padding: 10px;
 }
 
 .nav-links {
@@ -132,15 +141,12 @@ input[type="checkbox"] {
   display: block;
 }
 
-@media (max-width: 1000px) {
-  nav {
-    padding: 0 40px 0 50px;
-  }
 
-  .container {
-    max-width: 95%;
-  }
-}
+/* ============================ */
+/* Responsive Design Area */
+/* ============================= */
+
+/* Mobile & tablet */
 @media (max-width: 1000px) {
   nav .menu-btn i {
     display: block;
@@ -148,9 +154,18 @@ input[type="checkbox"] {
   #click:checked ~ .menu-btn i:before {
     content: "\f00d";
   }
+
+  nav {
+    padding: 0 40px 0 50px;
+  }
+
+  .container {
+    max-width: 95%;
+  }
+
   nav ul {
     position: fixed;
-    top: 80px;
+    top: 80px;                 /* keep aligned with your header */
     left: -100%;
     background: white;
     height: 100vh;
@@ -158,27 +173,28 @@ input[type="checkbox"] {
     text-align: center;
     display: block;
     transition: all 0.3s ease;
+    padding: 24px 16px;        /* stable internal padding */
+    overflow-y: auto;          /* in case menu is tall */
   }
   #click:checked ~ ul {
     left: 0;
   }
+
   nav ul li {
     width: 100%;
-    margin: 40px 0;
-  }
-  nav ul li .nav-links {
-    width: 100%;
-    margin-left: -100%;
-    display: inline-block;
-    font-size: 20px;
-    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    text-align: center;
-    color: black;
+    margin: 24px 0;            /* a bit tighter for smaller screens */
   }
 
-  #click:checked ~ ul li .nav-links {
-    margin-left: 0px;
+  nav ul li .nav-links {
+    width: 100%;
+    margin: 0;                 /* no horizontal slide-in needed */
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    transition: color 0.2s ease;
   }
+
   nav ul li .nav-links.active,
   nav ul li .nav-links:hover {
     background: none;
@@ -191,27 +207,25 @@ input[type="checkbox"] {
   }
 }
 
-/* ============================ */
-/* Respinsive Design Area */
-/* ============================= */
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .container {
-    max-width: 100%;
+/* Desktop (use this one block for desktop-specific tweaks) */
+@media (min-width: 1001px) {
+  nav ul {
+    padding: 0;                /* remove extra padding that shifts height */
+    gap: 32px;                 /* consistent spacing between items */
+  }
+  nav ul li {
+    margin: 0;                 /* spacing handled by gap */
+  }
+  .nav-links {
+    width: auto;               /* stop links from stretching */
+    display: block;
+    margin: 0;
+    line-height: 1;            /* avoids vertical jiggle */
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) and (max-width: 768px) {
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 992px) {
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
+/* Optional: laptop band — keep only if you want this container width */
+@media (min-width: 992px) and (max-width: 1200px) {
   .container {
     max-width: 85%;
   }
