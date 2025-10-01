@@ -7,7 +7,7 @@
   margin-top: 1rem; /* optional: spacing */
 }
 
-/* Who We Are Component Design */
+/* WhatIsChampLife Design */
 
 .common-header-right-div-title {
   padding-left: 20px;
@@ -68,7 +68,7 @@
 
 /* Video related css */
 
-.vid-wrap {
+/* .vid-wrap {
   display: block;
   position: relative;
   margin: 4rem auto;
@@ -103,7 +103,7 @@
   font-size: 18px;
   top: 0%;
   right: 0%;
-}
+} */
 
 /* Why Personal Training Component Design */
 .why-choose-us-div {

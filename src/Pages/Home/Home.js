@@ -2,19 +2,15 @@ import React from "react";
 import "./Home.css";
 import Victory from "../../Images/victory-bg-removed.png";
 import { Link } from "react-router-dom";
-import WhoWeAre from "../../Component/MultiComponents/WhoWeAre";
-// import WhyChooseUs from "../../Component/MultiComponents/WhyChooseUs";
 import WhyPersonalTraining from "../../Component/MultiComponents/WhyPersonalTraining";
-// import ProSelected from "../../Component/MultiComponents/ProSelected";
 import TrainingEnvironment from "../../Component/MultiComponents/TrainingEnviorment";
-// import Achievement from "../../Component/MultiComponents/Achievement";
 import InspireQuotes from "../../Component/MultiComponents/InspireQuotes";
-// import StrongTeam from "../../Component/MultiComponents/StrongTeam";
 import JohnnyOverview from "../../Component/MultiComponents/JohnnyOverview";
 import WhatClintsSay from "../../Component/MultiComponents/WhatClintsSay";
-import ChoosePlan from "../../Component/MultiComponents/ChoosePlan";
 import Packages from "../../Component/MultiComponents/Packages";
 import useFunction from "../../Hooks/useFunction";
+import WhatIsChampLife from "../../Component/MultiComponents/WhatIsChampLife";
+
 const Home = () => {
   const { handleContactPage } = useFunction();
   return (
@@ -58,30 +54,18 @@ const Home = () => {
           </div>
         </div>
       </div>
-
+      
       <div className="home-container-div-gray">
-        <WhoWeAre />
+        <WhatIsChampLife />
       </div>
-
-      {/* <div className="home-container-div-image1">
-        <WhyChooseUs />
-      </div> */}
 
       <div className="home-container-div-image1">
         <WhyPersonalTraining />
       </div>
 
-      {/* <div className="home-container-div-gray">
-        <ProSelected />
-      </div> */}
-
       <div className="home-container-div-gray">
         <TrainingEnvironment />
       </div>
-
-      {/* <div className="home-container-div-image2">
-        <Achievement />
-      </div> */}
 
       <div className="home-container-div-image2">
         <InspireQuotes />
@@ -94,10 +78,6 @@ const Home = () => {
       <div className="home-container-div-image3">
         <WhatClintsSay />
       </div>
-
-      {/* <div className="home-container-div-gray">
-        <ChoosePlan />
-      </div> */}
 
       <div className="home-container-div-gray">
         <Packages />
