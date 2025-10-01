@@ -46,7 +46,7 @@ const Home = () => {
                   <div className="header-col-image-centered">
                     <h1>Eat | Sleep | Train</h1>
                     <h1>Like a Champion</h1>
-                    <button onClick={handleContactPage}>Know More</button>
+                    <button onClick={handleContactPage}>Start Now</button>
                   </div>
                 </div>
               </div>
