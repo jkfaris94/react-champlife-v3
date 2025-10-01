@@ -118,7 +118,7 @@ const useFunction = () => {
 
   const handleAboutPage = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-    navigate("/about-us");
+    navigate("/about");
   };
 
   const handlePackagesPage = () => {
