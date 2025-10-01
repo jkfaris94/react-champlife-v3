@@ -50,6 +50,11 @@ const ContactUs = () => {
       </div>
 
       <div className="contact-us-container-div-gray">
+        <div>
+          <h3 className="request-header">
+            Request a complimentary training evaluation
+          </h3>
+        </div>
         <ContactForm />
       </div>
 
