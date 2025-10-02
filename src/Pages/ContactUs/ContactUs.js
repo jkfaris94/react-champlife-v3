@@ -2,7 +2,7 @@ import React from "react";
 import "./ContactUs.css";
 import Bodybuilder from "../../Images/rear-three-quarter-view-of-beautiful-bodybuilder.png";
 import ContactForm from "../../Component/MultiComponents/ContactForm";
-import ContactGoogleMap from "../../Component/MultiComponents/ContactGoogleMap";
+// import ContactGoogleMap from "../../Component/MultiComponents/ContactGoogleMap";
 
 const ContactUs = () => {
   return (
