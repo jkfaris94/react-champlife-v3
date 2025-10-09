@@ -8,7 +8,7 @@ import {
   signInWithEmailAndPassword,
 } from "firebase/auth";
 import { useEffect, useState } from "react";
-import Initialization from "../Firebase/Firebase.initilaization";
+import Initialization from "../Firebase/Firebase.initialization";
 
 const googleProvider = new GoogleAuthProvider();
 Initialization();

@@ -1,9 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import "./MultiComponents.css";
 import "../../Component/Footer/Footer.css";
 import { Link } from "react-router-dom";
+import { db } from "../../Firebase/Firebase.initialization"; // Adjust path if firebase.js is in a different folder (e.g., src/firebase.js)
+import { collection, addDoc } from "firebase/firestore";
 
 const ContactForm = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [submitStatus, setSubmitStatus] = useState(null);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      await addDoc(collection(db, "contacts"), {
+        name,
+        email,
+        message,
+        timestamp: new Date(),
+      });
+      setSubmitStatus("success");
+      // Clear form fields
+      setName("");
+      setEmail("");
+      setMessage("");
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      setSubmitStatus("error");
+    }
+  };
+
   return (
     <>
       <div className="section">
@@ -62,18 +89,34 @@ const ContactForm = () => {
           </div>
           <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-4">
             <div className="contact-form-div">
-              <form>
-                <input type="text" placeholder="Your Name" />
+              <form onSubmit={handleSubmit}>
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  required
+                />
                 <br />
-                <input type="email" placeholder="Your Email" />
+                <input
+                  type="email"
+                  placeholder="Your Email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                />
                 <br />
                 <textarea
-                  type="text"
                   rows="5"
                   placeholder="Your Message"
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                  required
                 ></textarea>
 
-                <button>Submit</button>
+                <button type="submit">Submit</button>
+                {submitStatus === "success" && <p style={{ color: "green" }}>Message sent successfully!</p>}
+                {submitStatus === "error" && <p style={{ color: "red" }}>Error sending message. Please try again.</p>}
               </form>
             </div>
           </div>
