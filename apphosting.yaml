@@ -9,20 +9,19 @@ runConfig:
 
 # Environment variables and secrets.
 env:
-  env:
-  - name: REACT_APP_FIREBASE_API_KEY
-    secret: FIREBASE_API_KEY  
-  - name: REACT_APP_FIREBASE_AUTH_DOMAIN
-    secret: FIREBASE_AUTH_DOMAIN
-  - name: REACT_APP_FIREBASE_PROJECT_ID
-    secret: FIREBASE_PROJECT_ID
-  - name: REACT_APP_FIREBASE_STORAGE_BUCKET
+  - variable: REACT_APP_FIREBASE_API_KEY
+    secret: FIREBASE_API_KEY  # Your Secret Manager name
+  - variable: REACT_APP_FIREBASE_AUTH_DOMAIN
+    secret: FIREBASE_AUTH_DOMAIN  # Or use value: "champlife-v3.firebaseapp.com" if non-sensitive
+  - variable: REACT_APP_FIREBASE_PROJECT_ID
+    value: "champlife-v3"  # Safe as value since it's public
+  - variable: REACT_APP_FIREBASE_STORAGE_BUCKET
     secret: FIREBASE_STORAGE_BUCKET
-  - name: REACT_APP_FIREBASE_MESSAGING_SENDER_ID
+  - variable: REACT_APP_FIREBASE_MESSAGING_SENDER_ID
     secret: FIREBASE_MESSAGING_SENDER_ID
-  - name: REACT_APP_FIREBASE_APP_ID
+  - variable: REACT_APP_FIREBASE_APP_ID
     secret: FIREBASE_APP_ID
-  - name: REACT_APP_FIREBASE_MEASUREMENT_ID
+  - variable: REACT_APP_FIREBASE_MEASUREMENT_ID
     secret: FIREBASE_MEASUREMENT_ID  # Optional
 
   # Grant access to secrets in Cloud Secret Manager.
