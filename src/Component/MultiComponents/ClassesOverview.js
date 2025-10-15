@@ -1,86 +1,86 @@
-import React from "react";
-import "./MultiComponents.css";
-import $ from "jquery";
+// import React from "react";
+// import "./MultiComponents.css";
+// import $ from "jquery";
 
-const ClassesOverview = (props) => {
-  // JQuery for Video Open
-  $(document).ready(function () {
-    $(".about-vid-wrap .thumbnail-img").click(function () {
-      var id = $(this).parent().attr("id");
-      var idVideo = $(this).attr("data-video");
+// const ClassesOverview = (props) => {
+//   // JQuery for Video Open
+//   $(document).ready(function () {
+//     $(".about-vid-wrap .thumbnail-img").click(function () {
+//       var id = $(this).parent().attr("id");
+//       var idVideo = $(this).attr("data-video");
 
-      playVideo(id, idVideo);
-    });
+//       playVideo(id, idVideo);
+//     });
 
-    $(".about-vid-wrap .btn-play").click(function () {
-      var id = $(this).parent().attr("id");
-      var idVideo = $(this).prev().attr("data-video");
-      playVideo(id, idVideo);
-    });
+//     $(".about-vid-wrap .btn-play").click(function () {
+//       var id = $(this).parent().attr("id");
+//       var idVideo = $(this).prev().attr("data-video");
+//       playVideo(id, idVideo);
+//     });
 
-    $(".btn-close").click(function (e) {
-      $(this).hide();
-      $(this).parent().find("iframe").hide().attr("src", "");
-      $(this).parent().find("img").show();
-      e.preventDefault();
-    });
-  });
+//     $(".btn-close").click(function (e) {
+//       $(this).hide();
+//       $(this).parent().find("iframe").hide().attr("src", "");
+//       $(this).parent().find("img").show();
+//       e.preventDefault();
+//     });
+//   });
 
-  function playVideo(id, idVideo) {
-    var $videoContainer = $("#" + id);  // ← Fixed: different variable name
-    $videoContainer.find("img").hide();
-    $videoContainer.find("iframe").show().attr("src", idVideo);
-    $videoContainer.find(".btn-close").show();
-  }
+//   function playVideo(id, idVideo) {
+//     var $videoContainer = $("#" + id);  // ← Fixed: different variable name
+//     $videoContainer.find("img").hide();
+//     $videoContainer.find("iframe").show().attr("src", idVideo);
+//     $videoContainer.find(".btn-close").show();
+//   }
 
-  const { filterDetailsData } = props;
+//   const { filterDetailsData } = props;
 
-  return (
-    <>
-      <div className="section">
-        <div className="row">
-          <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-4">
-            <div className="common-header-right-div-title">
-              <h4>Class Overview</h4>
+//   return (
+//     <>
+//       <div className="section">
+//         <div className="row">
+//           <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-4">
+//             <div className="common-header-right-div-title">
+//               <h4>Class Overview</h4>
 
-              {filterDetailsData.map((item) => (
-                <h2 key={item.id}>{item.title}</h2>
-              ))}
-            </div>
+//               {filterDetailsData.map((item) => (
+//                 <h2 key={item.id}>{item.title}</h2>
+//               ))}
+//             </div>
 
-            <div className="common-header-right-div-text">
-              {filterDetailsData.map((item) => (
-                <p key={item.id}>{item.overview1}</p>
-              ))}
+//             <div className="common-header-right-div-text">
+//               {filterDetailsData.map((item) => (
+//                 <p key={item.id}>{item.overview1}</p>
+//               ))}
 
-              {filterDetailsData.map((item) => (
-                <p key={item.id}>{item.overview2}</p>
-              ))}
-            </div>
-          </div>
+//               {filterDetailsData.map((item) => (
+//                 <p key={item.id}>{item.overview2}</p>
+//               ))}
+//             </div>
+//           </div>
 
-          <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-4">
-            <div className="about-vid-wrap" id="vid-1">
-              {filterDetailsData.map((item) => (
-                <img
-                  key={item.id}
-                  className="thumbnail-img"
-                  src={item.img}
-                  data-video={item.video_path}
-                  alt="images"
-                />
-              ))}
+//           <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-4">
+//             <div className="about-vid-wrap" id="vid-1">
+//               {filterDetailsData.map((item) => (
+//                 <img
+//                   key={item.id}
+//                   className="thumbnail-img"
+//                   src={item.img}
+//                   data-video={item.video_path}
+//                   alt="images"
+//                 />
+//               ))}
 
-              <iframe id="embed-vid-1" className="vid-first" title="vid-1"></iframe>
-              <p className="btn-close">
-                <i className="fa fa-times"></i>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
-  );
-};
+//               <iframe id="embed-vid-1" className="vid-first" title="vid-1"></iframe>
+//               <p className="btn-close">
+//                 <i className="fa fa-times"></i>
+//               </p>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </>
+//   );
+// };
 
-export default ClassesOverview;
+// export default ClassesOverview;
