@@ -13,10 +13,10 @@ const Navbar = () => {
     handleAboutPage,
     handleReviewsPage,
     handlePricingPage,
-    handleTrainersPage,
+    // handleTrainersPage,
     handleContactPage,
     handleProfilePage,
-    handleLogInPage,
+    // handleLogInPage,
   } = useFunction();
 
   $(window).scroll(function () {

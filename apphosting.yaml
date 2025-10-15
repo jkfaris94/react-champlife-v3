@@ -1,13 +1,13 @@
 # Settings for Backend (on Cloud Run).
 # See https://firebase.google.com/docs/app-hosting/configure#cloud-run
+build:
+  environment: nodejs  
+  runtime: nodejs20  
+  buildCommand: npm ci && npm run build  
+
 runConfig:
   minInstances: 0
-  # maxInstances: 100
-  # concurrency: 80
-  # cpu: 1
-  # memoryMiB: 512
 
-  # Environment variables and secrets.
 env:
   - variable: REACT_APP_FIREBASE_API_KEY
     secret: FIREBASE_API_KEY # Your Secret Manager name
