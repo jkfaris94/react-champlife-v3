@@ -3,7 +3,7 @@
 build:
   environment: nodejs  
   runtime: nodejs20  
-  buildCommand: npm ci && npm run build  
+  buildCommand: npm install && npm run build  
 
 runConfig:
   minInstances: 0
