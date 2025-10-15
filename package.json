@@ -53,5 +53,17 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  },
+  "overrides": {
+    "nth-check": "^2.1.1",
+    "svgo": "^3.3.2",
+    "css-select": "^5.1.0",
+    "postcss": "^8.4.31",
+    "resolve-url-loader": "^5.0.0",
+    "undici": "^6.21.2",
+    "webpack-dev-server": "^5.2.1",
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
+    "schema-utils": "^3.3.0"
   }
 }
