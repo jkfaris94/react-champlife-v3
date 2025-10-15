@@ -5,7 +5,7 @@ import WomenBodybuilder from "../../Images/young-woman-posing-and-showing-muscle
 import JohnnyOverview from "../../Component/MultiComponents/JohnnyOverview";
 import MemberStories from "../../Component/MultiComponents/MemberStories";
 import Certifications from "../../Component/MultiComponents/Certifications";
-import OurAwards from "../../Component/MultiComponents/OurAwards";
+// import OurAwards from "../../Component/MultiComponents/OurAwards";
 
 const About = () => {
   return (

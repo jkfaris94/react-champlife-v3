@@ -1,0 +1,31 @@
+# Settings for Backend (on Cloud Run).
+# See https://firebase.google.com/docs/app-hosting/configure#cloud-run
+runConfig:
+  minInstances: 0
+  # maxInstances: 100
+  # concurrency: 80
+  # cpu: 1
+  # memoryMiB: 512
+
+# Environment variables and secrets.
+env:
+  env:
+  - name: REACT_APP_FIREBASE_API_KEY
+    secret: FIREBASE_API_KEY  
+  - name: REACT_APP_FIREBASE_AUTH_DOMAIN
+    secret: FIREBASE_AUTH_DOMAIN
+  - name: REACT_APP_FIREBASE_PROJECT_ID
+    secret: FIREBASE_PROJECT_ID
+  - name: REACT_APP_FIREBASE_STORAGE_BUCKET
+    secret: FIREBASE_STORAGE_BUCKET
+  - name: REACT_APP_FIREBASE_MESSAGING_SENDER_ID
+    secret: FIREBASE_MESSAGING_SENDER_ID
+  - name: REACT_APP_FIREBASE_APP_ID
+    secret: FIREBASE_APP_ID
+  - name: REACT_APP_FIREBASE_MEASUREMENT_ID
+    secret: FIREBASE_MEASUREMENT_ID  # Optional
+
+  # Grant access to secrets in Cloud Secret Manager.
+  # See https://firebase.google.com/docs/app-hosting/configure#secret-parameters
+  # - variable: MY_SECRET
+  #   secret: mySecretRef
