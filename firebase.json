@@ -13,16 +13,10 @@
       "**/node_modules/**"
     ]
   },
-  "apphosting": {
-    "backendId": "react-champlife-v3-backend",
-    "rootDir": "/",
-    "ignore": [
-      "node_modules",
-      ".git",
-      "firebase-debug.log",
-      "firebase-debug.*.log",
-      "functions"
-    ],
-    "alwaysDeployFromSource": true
-  }
+  "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html" 
+      }
+    ]
 }
